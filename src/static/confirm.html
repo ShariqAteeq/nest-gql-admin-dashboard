@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-family: 'Signika', sans-serif;
+      margin-top: 3rem;
+      color: #fff;
+    "
+  >
+    <div
+      style="
+        background-color: #0a1929;
+        width: 600px;
+        border-radius: 15px;
+        border: none;
+      "
+    >
+      <div
+        style="
+          padding: 30px;
+          background-color: #132f4c;
+          border-radius: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        "
+      >
+        <h1 style="color: #fff; margin: 0; font-size: 40px">Congratulations</h1>
+        <img
+          width="60px"
+          src="https://cdn-icons-png.flaticon.com/512/1827/1827301.png"
+        />
+      </div>
+      <div style="padding: 30px">
+        <h1 style="margin: 0; text-align: center">Thanks for Signing Up!</h1>
+        <p style="text-align: center; font-size: 18px; padding-bottom: 10px">
+          Here is your verification code: <strong>{{code}}</strong>
+        </p>
+        <h3>
+          Best,<br />
+          The SMS Team
+        </h3>
+      </div>
+    </div>
+  </body>
+</html>

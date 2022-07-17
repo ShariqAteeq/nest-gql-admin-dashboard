@@ -3,6 +3,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApiModule } from 'src/api/api.module';
+import { AuthModule } from 'src/auth/auth.module';
 import { DatabaseOrmModule } from './database.orm.module';
 
 @Module({
@@ -11,6 +12,7 @@ import { DatabaseOrmModule } from './database.orm.module';
       isGlobal: true,
     }),
     ApiModule,
+    AuthModule,
     DatabaseOrmModule,
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
