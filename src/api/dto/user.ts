@@ -12,3 +12,11 @@ export class UserSignUpInput {
   @Field(() => [UserRole])
   role: UserRole[];
 }
+
+@InputType()
+export class ConfirmSignUpInput {
+  @Field()
+  code: string;
+  @Field()
+  email: string;
+}
