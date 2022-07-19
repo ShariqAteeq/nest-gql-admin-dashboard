@@ -15,10 +15,6 @@ export class User {
   @Field()
   id: number;
 
-  @Column()
-  @Field()
-  name: string;
-
   @Column({ unique: true, nullable: true })
   @Field({ nullable: true })
   email: string;
