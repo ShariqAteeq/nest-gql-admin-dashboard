@@ -54,8 +54,16 @@ export class UserService {
     company['id'] = createdUser['id'];
     company['email'] = email;
     company['name'] = name;
+    company['user'] = createdUser;
     await this.companyRepo.save(company);
     return createdUser;
+  }
+
+  async getUser(id: number): Promise<User> {
+    return await this.userRepo.findOne({
+      where: { id },
+      relations: ['company'],
+    });
   }
 
   async findAll(): Promise<User[]> {

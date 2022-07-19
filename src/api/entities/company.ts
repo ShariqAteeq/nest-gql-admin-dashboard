@@ -1,5 +1,13 @@
 import { Field, ObjectType } from '@nestjs/graphql';
-import { Column, CreateDateColumn, Entity, PrimaryColumn } from 'typeorm';
+import {
+  Column,
+  CreateDateColumn,
+  Entity,
+  JoinColumn,
+  OneToOne,
+  PrimaryColumn,
+} from 'typeorm';
+import { User } from './user';
 
 @ObjectType()
 @Entity('Company')
@@ -9,39 +17,44 @@ export class Company {
   id: number;
 
   @Column()
-  @Field()
+  @Field({ nullable: true })
   name: string;
 
   @Column()
-  @Field()
+  @Field({ nullable: true })
   email: string;
 
   @Column('text', { array: true, nullable: true })
-  @Field(() => [String])
+  @Field(() => [String], { nullable: true })
   tech: string[];
 
   @Column({ nullable: true })
-  @Field()
+  @Field({ nullable: true })
   currency: string;
 
   @Column({ nullable: true })
-  @Field()
+  @Field({ nullable: true })
   noOfEmployee: string;
 
   @Column({ nullable: true })
-  @Field()
+  @Field({ nullable: true })
   location: string;
 
   @Column({ nullable: true })
   @Field({ nullable: true })
   establishedAt: Date;
 
+  @OneToOne(() => User, (child) => child.company, { nullable: true })
+  @JoinColumn()
+  @Field(() => User, { nullable: true })
+  user: User;
+
   @CreateDateColumn({
     type: 'timestamp',
     nullable: true,
     default: () => 'CURRENT_TIMESTAMP(6)',
   })
-  @Field()
+  @Field({ nullable: true })
   logCreatedAt: Date;
 
   @CreateDateColumn({
@@ -49,6 +62,6 @@ export class Company {
     default: () => 'CURRENT_TIMESTAMP(6)',
     onUpdate: 'CURRENT_TIMESTAMP(6)',
   })
-  @Field()
+  @Field({ nullable: true })
   logUpdatedAt: Date;
 }
