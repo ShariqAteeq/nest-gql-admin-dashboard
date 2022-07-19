@@ -60,10 +60,14 @@ export class UserService {
   }
 
   async getUser(id: number): Promise<User> {
-    return await this.userRepo.findOne({
+    const user = await this.userRepo.findOne({
       where: { id },
       relations: ['company'],
     });
+    if (!user) {
+      throw new HttpException('User not found!', HttpStatus.NOT_FOUND);
+    }
+    return user;
   }
 
   async findAll(): Promise<User[]> {
