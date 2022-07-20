@@ -21,9 +21,9 @@ export class User {
   @Field({ nullable: true })
   email: string;
 
-  @Column({ nullable: true })
+  @Column({ select: false })
   @HideField()
-  password: string;
+  password?: string;
 
   @Column({ nullable: true })
   @Field({ nullable: true })
