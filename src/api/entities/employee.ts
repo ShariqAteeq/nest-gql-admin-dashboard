@@ -3,17 +3,15 @@ import {
   Column,
   CreateDateColumn,
   Entity,
-  JoinColumn,
-  OneToMany,
-  OneToOne,
+  ManyToOne,
   PrimaryColumn,
 } from 'typeorm';
-import { Employee } from './employee';
+import { Company } from './company';
 import { User } from './user';
 
 @ObjectType()
-@Entity('Company')
-export class Company {
+@Entity('Employee')
+export class Employee {
   @PrimaryColumn({ type: 'bigint' })
   @Field()
   id: number;
@@ -22,38 +20,17 @@ export class Company {
   @Field({ nullable: true })
   name: string;
 
-  @Column()
-  @Field({ nullable: true })
-  email: string;
-
   @Column('text', { array: true, nullable: true })
   @Field(() => [String], { nullable: true })
-  tech: string[];
+  skills: string[];
 
-  @Column({ nullable: true })
+  @Column({ type: 'bigint' })
   @Field({ nullable: true })
-  currency: string;
+  salary: number;
 
-  @Column({ nullable: true })
+  @CreateDateColumn()
   @Field({ nullable: true })
-  noOfEmployee: string;
-
-  @Column({ nullable: true })
-  @Field({ nullable: true })
-  location: string;
-
-  @Column({ nullable: true })
-  @Field({ nullable: true })
-  establishedAt: Date;
-
-  @OneToOne(() => User, (child) => child.company, { nullable: true })
-  @JoinColumn()
-  @Field(() => User, { nullable: true })
-  user: User;
-
-  @OneToMany(() => Employee, (child) => child.company)
-  @Field(() => [Employee], { nullable: true })
-  employees: Employee[];
+  joiningDate: Date;
 
   @CreateDateColumn({
     type: 'timestamp',
@@ -70,4 +47,12 @@ export class Company {
   })
   @Field({ nullable: true })
   logUpdatedAt: Date;
+
+  @ManyToOne(() => Company, (child) => child.employees, { nullable: true })
+  @Field(() => Company, { nullable: true })
+  company: Company;
+
+  @ManyToOne(() => User, (user) => user.id)
+  @Field({ nullable: true })
+  logCreatedBy: User;
 }
