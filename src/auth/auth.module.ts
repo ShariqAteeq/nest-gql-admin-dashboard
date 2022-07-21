@@ -3,6 +3,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ApiModule } from 'src/api/api.module';
 import { Company } from 'src/api/entities/company';
+import { SMSToken } from 'src/api/entities/token';
 import { User } from 'src/api/entities/user';
 import { CompanyService } from 'src/api/service/company.service';
 import { HelperService } from 'src/api/service/helper.service';
@@ -18,6 +19,7 @@ import { JwtStrategy } from './jwt.strategy';
     forwardRef(() => ApiModule),
     TypeOrmModule.forFeature([User]),
     TypeOrmModule.forFeature([Company]),
+    TypeOrmModule.forFeature([SMSToken]),
     JwtModule.register({
       secret: jwtConstants.secret,
       signOptions: { expiresIn: jwtConstants.expiresIn },

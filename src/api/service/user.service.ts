@@ -8,12 +8,15 @@ import * as bcrypt from 'bcrypt';
 import { Mail, UserStatus } from 'src/helpers/constant';
 // import { NotificationService } from './notification.service';
 import { Company } from '../entities/company';
+import { SMSToken } from '../entities/token';
+import * as moment from 'moment';
 
 @Injectable()
 export class UserService {
   constructor(
     @InjectRepository(User) private userRepo: Repository<User>,
     @InjectRepository(Company) private companyRepo: Repository<Company>,
+    @InjectRepository(SMSToken) private SMSTokenRepo: Repository<SMSToken>,
     private helperService: HelperService, // private notifService: NotificationService,
   ) {}
 
@@ -72,5 +75,14 @@ export class UserService {
 
   async findAll(): Promise<User[]> {
     return await this.userRepo.find();
+  }
+
+  async storeToken(userId: number, refreshToken: string): Promise<SMSToken> {
+    const token = this.SMSTokenRepo.create({
+      userId,
+      refreshToken,
+      expiresAt: moment().add(5, 'days').toDate(),
+    });
+    return await this.SMSTokenRepo.save(token);
   }
 }

@@ -2,6 +2,7 @@ import { forwardRef, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from 'src/auth/auth.module';
 import { Company } from './entities/company';
+import { SMSToken } from './entities/token';
 import { User } from './entities/user';
 import { CompanyResolver } from './resolver/company.resolver';
 import { UserResolver } from './resolver/user.resolver';
@@ -15,6 +16,7 @@ import { UserService } from './service/user.service';
     forwardRef(() => AuthModule),
     TypeOrmModule.forFeature([User]),
     TypeOrmModule.forFeature([Company]),
+    TypeOrmModule.forFeature([SMSToken]),
   ],
   providers: [
     UserResolver,

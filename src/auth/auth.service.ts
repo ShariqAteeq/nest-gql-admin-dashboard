@@ -7,12 +7,15 @@ import { Repository } from 'typeorm';
 import { LoginInput, LoginOutput } from './auth.dto';
 import * as bcrypt from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
+import { randomBytes } from 'crypto';
+import { UserService } from 'src/api/service/user.service';
 
 @Injectable()
 export class AuthService {
   constructor(
     @InjectRepository(User) private userRepo: Repository<User>,
     private jwtService: JwtService,
+    private userSerice: UserService,
   ) {}
 
   async verifyEmail(payload: ConfirmSignUpInput): Promise<User> {
@@ -41,6 +44,7 @@ export class AuthService {
   async validateUser(payload: LoginInput): Promise<User> {
     const { email } = payload;
     const user = await this.userRepo.findOneBy({ email });
+    console.log('user', user);
     const { password, ...rest } = user;
     if (!user) {
       throw new HttpException('User not found!', HttpStatus.NOT_FOUND);
@@ -49,6 +53,14 @@ export class AuthService {
       throw new HttpException('Incorrect Password!', HttpStatus.BAD_REQUEST);
     }
     return rest;
+  }
+
+  async createRefreshToken(userId: number): Promise<string> {
+    const refreshToken = randomBytes(64).toString('hex');
+
+    const token = await this.userSerice.storeToken(userId, refreshToken);
+
+    return token.refreshToken;
   }
 
   async login(userPayload: User): Promise<LoginOutput> {
@@ -68,7 +80,7 @@ export class AuthService {
         userId,
         isEmailVerified,
       }),
-      refresh_token: '',
-    };
+      refresh_token: await this.createRefreshToken(userId),
+    } as LoginOutput;
   }
 }
