@@ -1,9 +1,12 @@
 import { Field, ObjectType } from '@nestjs/graphql';
+import { EmployeeType } from 'src/helpers/constant';
 import {
   Column,
   CreateDateColumn,
   Entity,
+  JoinColumn,
   ManyToOne,
+  OneToOne,
   PrimaryColumn,
 } from 'typeorm';
 import { Company } from './company';
@@ -20,6 +23,14 @@ export class Employee {
   @Field({ nullable: true })
   name: string;
 
+  @Column()
+  @Field({ nullable: true })
+  designation: string;
+
+  @Column()
+  @Field({ nullable: true })
+  employeeType: EmployeeType;
+
   @Column('text', { array: true, nullable: true })
   @Field(() => [String], { nullable: true })
   skills: string[];
@@ -31,6 +42,10 @@ export class Employee {
   @CreateDateColumn()
   @Field({ nullable: true })
   joiningDate: Date;
+
+  @CreateDateColumn({ nullable: true })
+  @Field({ nullable: true })
+  leftDate: Date;
 
   @CreateDateColumn({
     type: 'timestamp',
@@ -52,7 +67,12 @@ export class Employee {
   @Field(() => Company, { nullable: true })
   company: Company;
 
+  @OneToOne(() => User, (child) => child.employee, { nullable: true })
+  @JoinColumn()
+  @Field(() => User, { nullable: true })
+  user: User;
+
   @ManyToOne(() => User, (user) => user.id)
-  @Field({ nullable: true })
+  @Field(() => User, { nullable: true })
   logCreatedBy: User;
 }

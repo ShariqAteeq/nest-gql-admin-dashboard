@@ -1,4 +1,5 @@
 import { Field, InputType, ObjectType } from '@nestjs/graphql';
+import { Role } from 'src/helpers/constant';
 
 @ObjectType()
 export class LoginOutput {
@@ -16,4 +17,16 @@ export class LoginInput {
 
   @Field()
   password: string;
+}
+
+@ObjectType()
+export class AccessTokenOutput {
+  @Field()
+  userId: number;
+
+  @Field()
+  email: string;
+
+  @Field(() => [Role])
+  role: Role[];
 }

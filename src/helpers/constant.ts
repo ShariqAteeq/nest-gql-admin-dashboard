@@ -1,6 +1,6 @@
 import { registerEnumType } from '@nestjs/graphql';
 
-export enum UserRole {
+export enum Role {
   COMPANY = 'COMPANY',
   ADMIN = 'ADMIN',
   HR = 'HR',
@@ -14,6 +14,12 @@ export enum UserStatus {
   INACTIVE = 'INACTIVE',
 }
 
+export enum EmployeeType {
+  DEVELOPER = 'DEVELOPER',
+  HR = 'HR',
+  CLEANER = 'CLEANER',
+}
+
 export interface Mail {
   to: string;
   subject?: string;
@@ -23,8 +29,8 @@ export interface Mail {
   templateData?: any;
 }
 
-registerEnumType(UserRole, {
-  name: 'UserRole',
+registerEnumType(Role, {
+  name: 'Role',
 });
 
 registerEnumType(UserStatus, {

@@ -1,4 +1,5 @@
 import { Field, InputType } from '@nestjs/graphql';
+import { Role } from 'src/helpers/constant';
 
 @InputType()
 export class CompleteProfileInput {
@@ -8,6 +9,8 @@ export class CompleteProfileInput {
   name: string;
   @Field()
   location: string;
+  @Field()
+  role: Role;
   @Field(() => [String])
   tech: string[];
   @Field()

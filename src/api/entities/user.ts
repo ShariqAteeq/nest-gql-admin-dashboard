@@ -1,5 +1,5 @@
 import { Field, HideField, ObjectType } from '@nestjs/graphql';
-import { UserRole, UserStatus } from 'src/helpers/constant';
+import { Role, UserStatus } from 'src/helpers/constant';
 import {
   Column,
   CreateDateColumn,
@@ -9,6 +9,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { Company } from './company';
+import { Employee } from './employee';
 
 @ObjectType()
 @Entity('User')
@@ -29,13 +30,13 @@ export class User {
   @Field({ nullable: true })
   tempPassword: string;
 
-  @Field(() => [UserRole], { nullable: true })
+  @Field(() => [Role], { nullable: true })
   @Column({
     type: 'enum',
-    enum: UserRole,
+    enum: Role,
     array: true,
   })
-  role: UserRole[];
+  role: Role[];
 
   @Field({ nullable: true })
   @Column()
@@ -65,9 +66,19 @@ export class User {
   @Field({ nullable: true })
   logUpdatedAt: Date;
 
-  @OneToOne(() => Company, (child) => child.user, { nullable: true })
+  @OneToOne(() => Company, (child) => child.user, {
+    nullable: true,
+    onDelete: 'CASCADE',
+  })
   @Field(() => Company, { nullable: true })
   company: Company;
+
+  @OneToOne(() => Employee, (child) => child.user, {
+    nullable: true,
+    onDelete: 'CASCADE',
+  })
+  @Field(() => Employee, { nullable: true })
+  employee: Employee;
 
   @ManyToOne(() => User, (user) => user.id)
   @Field({ nullable: true })

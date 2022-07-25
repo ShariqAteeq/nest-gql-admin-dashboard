@@ -4,7 +4,7 @@ import { ConfirmSignUpInput } from 'src/api/dto/user';
 import { User } from 'src/api/entities/user';
 import { UserStatus } from 'src/helpers/constant';
 import { Repository } from 'typeorm';
-import { LoginInput, LoginOutput } from './auth.dto';
+import { AccessTokenOutput, LoginInput, LoginOutput } from './auth.dto';
 import * as bcrypt from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
 import { randomBytes } from 'crypto';
@@ -41,6 +41,15 @@ export class AuthService {
     return user;
   }
 
+  validateToken(token: string): boolean | string {
+    try {
+      this.jwtService.verify(token);
+      return true;
+    } catch (error) {
+      return error.name;
+    }
+  }
+
   async validateUser(payload: LoginInput): Promise<User> {
     const { email } = payload;
     const user = await this.userRepo.findOneBy({ email });
@@ -61,6 +70,14 @@ export class AuthService {
     const token = await this.userSerice.storeToken(userId, refreshToken);
 
     return token.refreshToken;
+  }
+
+  getUserFromAccessToken(accessToken: string): AccessTokenOutput {
+    const user = this.jwtService.verify(accessToken, {
+      ignoreExpiration: true,
+    });
+
+    return user;
   }
 
   async login(userPayload: User): Promise<LoginOutput> {
