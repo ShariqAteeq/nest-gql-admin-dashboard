@@ -1,9 +1,6 @@
 import { forwardRef, Module } from '@nestjs/common';
-import { JwtService } from '@nestjs/jwt';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { RolesGuard } from 'src/auth/auth.guard';
 import { AuthModule } from 'src/auth/auth.module';
-import { AuthService } from 'src/auth/auth.service';
 import { Company } from './entities/company';
 import { Employee } from './entities/employee';
 import { SMSToken } from './entities/token';

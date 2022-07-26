@@ -25,6 +25,10 @@ export class Employee {
 
   @Column()
   @Field({ nullable: true })
+  email: string;
+
+  @Column()
+  @Field({ nullable: true })
   designation: string;
 
   @Column()

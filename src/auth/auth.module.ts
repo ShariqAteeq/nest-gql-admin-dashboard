@@ -10,7 +10,7 @@ import { HelperService } from 'src/api/service/helper.service';
 import { NotificationService } from 'src/api/service/notification.service';
 import { UserService } from 'src/api/service/user.service';
 import { jwtConstants } from 'src/helpers/jwtConstant';
-import { RolesGuard } from './auth.guard';
+import { GqlAuthGuard } from './auth.guard';
 import { AuthResolver } from './auth.resolver';
 import { AuthService } from './auth.service';
 import { JwtStrategy } from './jwt.strategy';
@@ -36,7 +36,7 @@ import { JwtStrategy } from './jwt.strategy';
     JwtStrategy,
     {
       provide: 'APP_GUARD',
-      useClass: RolesGuard,
+      useClass: GqlAuthGuard,
     },
   ],
   exports: [AuthService],

@@ -1,5 +1,5 @@
 import { Field, InputType } from '@nestjs/graphql';
-import { EmployeeType } from 'src/helpers/constant';
+import { EmployeeType, Role } from 'src/helpers/constant';
 import { User } from '../entities/user';
 
 @InputType()
@@ -10,6 +10,8 @@ export class AddEmployeeInput {
   email: string;
   @Field()
   salary: number;
+  @Field()
+  role: Role;
   @Field(() => [String])
   skills: string[];
   @Field()

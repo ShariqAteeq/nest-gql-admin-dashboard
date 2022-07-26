@@ -28,7 +28,7 @@ export class User {
 
   @Column({ nullable: true })
   @Field({ nullable: true })
-  tempPassword: string;
+  tempPassword?: string;
 
   @Field(() => [Role], { nullable: true })
   @Column({

@@ -21,6 +21,10 @@ export class HelperService {
     return id;
   }
 
+  public getTempPassword(): string {
+    return Math.random().toString(36).slice(-12);
+  }
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   public changeObjKeys(obj: unknown, replaceStr): any {
     const data = Object.keys(obj).map((key) => {

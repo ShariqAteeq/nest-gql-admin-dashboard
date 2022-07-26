@@ -1,7 +1,8 @@
-import { Mutation, Resolver } from '@nestjs/graphql';
+import { Args, Context, Mutation, Resolver } from '@nestjs/graphql';
 import { Roles } from 'src/decorators/roles.decorator';
 import { CurrentUser } from 'src/decorators/user.decorator';
 import { Role } from 'src/helpers/constant';
+import { AddEmployeeInput } from '../dto/employee';
 import { Employee } from '../entities/employee';
 import { EmployeeService } from '../service/employee.service';
 
@@ -11,8 +12,10 @@ export class EmployeeResolver {
 
   @Mutation(() => String)
   @Roles(Role.COMPANY)
-  addEmployee(@CurrentUser() user) {
-    console.log('user in resolver', user);
-    return this.empService.addEmployee();
+  async addEmployee(
+    @Args('input') input: AddEmployeeInput,
+    @Context() context,
+  ): Promise<Employee> {
+    return await this.empService.addEmployee(input, context);
   }
 }
