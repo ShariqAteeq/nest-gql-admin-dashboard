@@ -18,14 +18,14 @@ export class EmployeeService {
     private auth: AuthService,
   ) {}
 
-  public async addEmployee(
+  async addEmployee(
     input: AddEmployeeInput,
     @Context() context,
   ): Promise<Employee> {
-    const creator = await this.auth.getUserFromAccessToken(
-      context.headers.authorization.substring(7),
-    );
-    const user = await this.userRepo.findOneBy({ email: input['email'] });
+    const creator = await this.auth.getUserFromContext(context);
+    const user = await this.userRepo.findOne({
+      where: { email: input['email'] },
+    });
     if (user) {
       throw new HttpException('Employee already exist', HttpStatus.NOT_FOUND);
     }
@@ -48,7 +48,8 @@ export class EmployeeService {
       employeeType: input['employeeType'],
       skills: input['skills'],
       joiningDate: input['joiningDate'],
-      company: creator,
+      company: creator['company'],
+      user: createdUser,
     });
     return await this.empRepo.save(employee);
   }

@@ -23,20 +23,19 @@ export class GqlAuthGuard implements CanActivate {
       context.getClass(),
     ]);
     const authHeader = context.getArgs()[2].req.headers.authorization as string;
-    const token = authHeader.split(' ')[1];
-
-    if (!token && !requiredRoles) {
+    if (!requiredRoles) {
       return true;
     }
-
+    const token = authHeader.split(' ')[1];
+    console.log('token', token);
     const isTokenValid = this.authService.validateToken(token);
-    if (!isTokenValid) {
+    console.log('isTokenValid', isTokenValid);
+    if (isTokenValid === 'TokenExpiredError') {
       throw new HttpException('Token is Expired', HttpStatus.BAD_REQUEST);
     }
 
     const user = this.authService.getUserFromAccessToken(token);
-    const ctx = GqlExecutionContext.create(context);
-    console.log('user', ctx.getContext().req.user);
+    console.log('user in authguard', user);
     return requiredRoles.some((role) => user.role?.includes(role));
   }
 }

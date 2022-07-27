@@ -1,6 +1,5 @@
 import { Field, InputType } from '@nestjs/graphql';
 import { EmployeeType, Role } from 'src/helpers/constant';
-import { User } from '../entities/user';
 
 @InputType()
 export class AddEmployeeInput {
@@ -20,6 +19,4 @@ export class AddEmployeeInput {
   joiningDate: Date;
   @Field()
   employeeType: EmployeeType;
-  @Field()
-  logCreatedBy: User;
 }

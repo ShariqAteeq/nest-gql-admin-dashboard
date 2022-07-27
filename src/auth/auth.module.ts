@@ -1,5 +1,6 @@
 import { forwardRef, Module } from '@nestjs/common';
 import { JwtModule } from '@nestjs/jwt';
+import { PassportModule } from '@nestjs/passport';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ApiModule } from 'src/api/api.module';
 import { Company } from 'src/api/entities/company';
@@ -15,12 +16,15 @@ import { AuthResolver } from './auth.resolver';
 import { AuthService } from './auth.service';
 import { JwtStrategy } from './jwt.strategy';
 
+const passportModule = PassportModule.register({ defaultStrategy: 'jwt' });
+
 @Module({
   imports: [
     forwardRef(() => ApiModule),
     TypeOrmModule.forFeature([User]),
     TypeOrmModule.forFeature([Company]),
     TypeOrmModule.forFeature([SMSToken]),
+    passportModule,
     JwtModule.register({
       secret: jwtConstants.secret,
       signOptions: { expiresIn: jwtConstants.expiresIn },
@@ -34,11 +38,11 @@ import { JwtStrategy } from './jwt.strategy';
     NotificationService,
     CompanyService,
     JwtStrategy,
-    {
-      provide: 'APP_GUARD',
-      useClass: GqlAuthGuard,
-    },
+    // {
+    //   provide: 'APP_GUARD',
+    //   useClass: GqlAuthGuard,
+    // },
   ],
-  exports: [AuthService],
+  exports: [passportModule, AuthService, UserService],
 })
 export class AuthModule {}

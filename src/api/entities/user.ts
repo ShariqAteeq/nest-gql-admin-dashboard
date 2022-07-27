@@ -22,7 +22,7 @@ export class User {
   @Field({ nullable: true })
   email: string;
 
-  @Column()
+  @Column({ nullable: true })
   @HideField()
   password?: string;
 
@@ -81,10 +81,10 @@ export class User {
   employee: Employee;
 
   @ManyToOne(() => User, (user) => user.id)
-  @Field({ nullable: true })
+  @Field(() => User, { nullable: true })
   logCreatedBy: User;
 
   @ManyToOne(() => User, (user) => user.id)
-  @Field({ nullable: true })
+  @Field(() => User, { nullable: true })
   logUpdatedBy: User;
 }

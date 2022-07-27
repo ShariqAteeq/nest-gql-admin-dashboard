@@ -76,7 +76,7 @@ export class Employee {
   @Field(() => User, { nullable: true })
   user: User;
 
-  @ManyToOne(() => User, (user) => user.id)
+  @ManyToOne(() => User, (user) => user.id, { nullable: true })
   @Field(() => User, { nullable: true })
   logCreatedBy: User;
 }

@@ -9,11 +9,14 @@ import * as bcrypt from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
 import { randomBytes } from 'crypto';
 import { UserService } from 'src/api/service/user.service';
+import { Company } from 'src/api/entities/company';
+import { Context } from '@nestjs/graphql';
 
 @Injectable()
 export class AuthService {
   constructor(
     @InjectRepository(User) private userRepo: Repository<User>,
+    @InjectRepository(Company) private companyRepo: Repository<Company>,
     private jwtService: JwtService,
     private userSerice: UserService,
   ) {}
@@ -53,7 +56,6 @@ export class AuthService {
   async validateUser(payload: LoginInput): Promise<User> {
     const { email } = payload;
     const user = await this.userRepo.findOneBy({ email });
-    console.log('user', user);
     const { password, ...rest } = user;
     if (!user) {
       throw new HttpException('User not found!', HttpStatus.NOT_FOUND);
@@ -78,6 +80,19 @@ export class AuthService {
     });
 
     return user;
+  }
+
+  async getUserFromContext(@Context() context): Promise<User> {
+    const user = this.jwtService.verify(
+      context.req.headers.authorization.substring(7),
+      {
+        ignoreExpiration: true,
+      },
+    );
+    return await this.userRepo.findOne({
+      where: { id: user['userId'] },
+      relations: ['company', 'employee'],
+    });
   }
 
   async login(userPayload: User): Promise<LoginOutput> {
