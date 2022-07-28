@@ -56,6 +56,9 @@ export class EmployeeService {
   }
 
   async listEmployees(id: number): Promise<Employee[]> {
-    return await this.empRepo.find({ where: { companyId: id } });
+    return await this.empRepo.find({
+      where: { companyId: id },
+      relations: ['company'],
+    });
   }
 }
