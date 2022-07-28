@@ -38,10 +38,10 @@ const passportModule = PassportModule.register({ defaultStrategy: 'jwt' });
     NotificationService,
     CompanyService,
     JwtStrategy,
-    // {
-    //   provide: 'APP_GUARD',
-    //   useClass: GqlAuthGuard,
-    // },
+    {
+      provide: 'APP_GUARD',
+      useClass: GqlAuthGuard,
+    },
   ],
   exports: [passportModule, AuthService, UserService],
 })

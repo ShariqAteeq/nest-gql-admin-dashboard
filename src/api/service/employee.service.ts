@@ -34,7 +34,7 @@ export class EmployeeService {
       email: input['email'],
       tempPassword,
       isEmailVerified: true,
-      userStatus: UserStatus.INACTIVE,
+      userStatus: UserStatus.CHANGE_PASSWORD,
       role: [Role.EMPLOYEE, input['role']],
       logCreatedBy: creator,
     });
@@ -49,8 +49,13 @@ export class EmployeeService {
       skills: input['skills'],
       joiningDate: input['joiningDate'],
       company: creator['company'],
+      companyId: creator['id'],
       user: createdUser,
     });
     return await this.empRepo.save(employee);
+  }
+
+  async listEmployees(id: number): Promise<Employee[]> {
+    return await this.empRepo.find({ where: { companyId: id } });
   }
 }

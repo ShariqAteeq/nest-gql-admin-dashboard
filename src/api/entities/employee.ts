@@ -43,11 +43,11 @@ export class Employee {
   @Field({ nullable: true })
   salary: number;
 
-  @CreateDateColumn()
+  @Column()
   @Field({ nullable: true })
   joiningDate: Date;
 
-  @CreateDateColumn({ nullable: true })
+  @Column({ nullable: true })
   @Field({ nullable: true })
   leftDate: Date;
 
@@ -66,6 +66,10 @@ export class Employee {
   })
   @Field({ nullable: true })
   logUpdatedAt: Date;
+
+  @Column()
+  @Field()
+  companyId: number;
 
   @ManyToOne(() => Company, (child) => child.employees, { nullable: true })
   @Field(() => Company, { nullable: true })

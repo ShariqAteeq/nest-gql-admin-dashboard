@@ -1,6 +1,4 @@
-import { UseGuards } from '@nestjs/common';
-import { Args, Context, Mutation, Resolver } from '@nestjs/graphql';
-import { GqlAuthGuard } from 'src/auth/auth.guard';
+import { Args, Context, Mutation, Query, Resolver } from '@nestjs/graphql';
 import { Roles } from 'src/decorators/roles.decorator';
 import { CurrentUser } from 'src/decorators/user.decorator';
 import { Role } from 'src/helpers/constant';
@@ -12,7 +10,6 @@ import { EmployeeService } from '../service/employee.service';
 export class EmployeeResolver {
   constructor(private empService: EmployeeService) {}
 
-  @UseGuards(GqlAuthGuard)
   @Roles(Role.COMPANY, Role.HR)
   @Mutation(() => Employee)
   async addEmployee(
@@ -22,5 +19,11 @@ export class EmployeeResolver {
   ): Promise<Employee> {
     console.log('user in resolver', user);
     return await this.empService.addEmployee(input, context);
+  }
+
+  @Roles(Role.COMPANY, Role.HR)
+  @Query(() => [Employee])
+  async listEmployees(@Args('id') id: number): Promise<Employee[]> {
+    return await this.empService.listEmployees(id);
   }
 }
