@@ -61,4 +61,15 @@ export class EmployeeService {
       relations: ['company'],
     });
   }
+
+  async employee(id: number): Promise<Employee> {
+    const emp = await this.empRepo.findOne({
+      where: { id },
+      relations: ['company'],
+    });
+    if (!emp) {
+      throw new HttpException('Employee not found!', HttpStatus.NOT_FOUND);
+    }
+    return emp;
+  }
 }

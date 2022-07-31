@@ -9,8 +9,6 @@ export class CompleteProfileInput {
   name: string;
   @Field()
   location: string;
-  @Field()
-  role: Role;
   @Field(() => [String])
   tech: string[];
   @Field()

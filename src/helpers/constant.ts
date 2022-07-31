@@ -15,6 +15,11 @@ export enum UserStatus {
   CHANGE_PASSWORD = 'CHANGE_PASSWORD',
 }
 
+export enum ProjectStatus {
+  ON_GOING = 'ON_GOING',
+  COMPLETED = 'COMPLETED',
+}
+
 export enum EmployeeType {
   DEVELOPER = 'DEVELOPER',
   HR = 'HR',

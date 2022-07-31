@@ -6,7 +6,6 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import { GqlExecutionContext } from '@nestjs/graphql';
 import { Role } from 'src/helpers/constant';
 import { AuthService } from './auth.service';
 
@@ -27,7 +26,6 @@ export class GqlAuthGuard implements CanActivate {
       return true;
     }
     const token = authHeader.split(' ')[1];
-    console.log('token', token);
     const isTokenValid = this.authService.validateToken(token);
     console.log('isTokenValid', isTokenValid);
     if (isTokenValid === 'TokenExpiredError') {
@@ -35,7 +33,6 @@ export class GqlAuthGuard implements CanActivate {
     }
 
     const user = this.authService.getUserFromAccessToken(token);
-    console.log('user in authguard', user);
     return requiredRoles.some((role) => user.role?.includes(role));
   }
 }

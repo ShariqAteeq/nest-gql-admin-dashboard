@@ -2,7 +2,7 @@ import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
 import { ConfirmSignUpInput, UserSignUpInput } from 'src/api/dto/user';
 import { User } from 'src/api/entities/user';
 import { UserService } from 'src/api/service/user.service';
-import { LoginInput, LoginOutput } from './auth.dto';
+import { LoginInput, LoginOutput, ResetPasswordInput } from './auth.dto';
 import { AuthService } from './auth.service';
 
 @Resolver(() => User)
@@ -24,6 +24,13 @@ export class AuthResolver {
   async login(@Args('input') input: LoginInput): Promise<LoginOutput> {
     const user = await this.authService.validateUser(input);
     return await this.authService.login(user);
+  }
+
+  @Mutation(() => LoginOutput)
+  async resetPassword(
+    @Args('input') input: ResetPasswordInput,
+  ): Promise<LoginOutput> {
+    return await this.authService.resetPassword(input);
   }
 
   @Mutation(() => User)

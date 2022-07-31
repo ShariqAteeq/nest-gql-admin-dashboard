@@ -9,6 +9,7 @@ import {
   PrimaryColumn,
 } from 'typeorm';
 import { Employee } from './employee';
+import { Project } from './project';
 import { User } from './user';
 
 @ObjectType()
@@ -54,6 +55,10 @@ export class Company {
   @OneToMany(() => Employee, (child) => child.company)
   @Field(() => [Employee], { nullable: true })
   employees: Employee[];
+
+  // @OneToMany(() => Project, (child) => child.company)
+  // @Field(() => [Project], { nullable: true })
+  // projects: Project[];
 
   @CreateDateColumn({
     type: 'timestamp',

@@ -26,4 +26,10 @@ export class EmployeeResolver {
   async listEmployees(@Args('id') id: number): Promise<Employee[]> {
     return await this.empService.listEmployees(id);
   }
+
+  @Roles(Role.COMPANY, Role.HR)
+  @Query(() => Employee)
+  async employee(@Args('id') id: number): Promise<Employee> {
+    return await this.empService.employee(id);
+  }
 }

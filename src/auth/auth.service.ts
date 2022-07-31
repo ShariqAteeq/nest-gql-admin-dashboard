@@ -4,7 +4,12 @@ import { ConfirmSignUpInput } from 'src/api/dto/user';
 import { User } from 'src/api/entities/user';
 import { UserStatus } from 'src/helpers/constant';
 import { Repository } from 'typeorm';
-import { AccessTokenOutput, LoginInput, LoginOutput } from './auth.dto';
+import {
+  AccessTokenOutput,
+  LoginInput,
+  LoginOutput,
+  ResetPasswordInput,
+} from './auth.dto';
 import * as bcrypt from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
 import { randomBytes } from 'crypto';
@@ -60,8 +65,20 @@ export class AuthService {
     if (!user) {
       throw new HttpException('User not found!', HttpStatus.NOT_FOUND);
     }
-    if (user && !bcrypt.compareSync(payload['password'], user['password'])) {
+    if (
+      user &&
+      (user['userStatus'] === UserStatus.CHANGE_PASSWORD
+        ? user['tempPassword'] !== payload['password']
+        : !bcrypt.compareSync(payload['password'], user['password']))
+    ) {
       throw new HttpException('Incorrect Password!', HttpStatus.BAD_REQUEST);
+    }
+
+    if (user['userStatus'] === UserStatus.CHANGE_PASSWORD) {
+      throw new HttpException(
+        'Please reset your password!',
+        HttpStatus.BAD_REQUEST,
+      );
     }
     return rest;
   }
@@ -89,10 +106,26 @@ export class AuthService {
         ignoreExpiration: true,
       },
     );
-    return await this.userRepo.findOne({
-      where: { id: user['userId'] },
-      relations: ['company', 'employee'],
-    });
+    return await this.userSerice.getUser(user['userId']);
+  }
+
+  async resetPassword(input: ResetPasswordInput): Promise<LoginOutput> {
+    const { email, newPassword, confirmPassword } = input;
+    const user = await this.userRepo.findOne({ where: { email } });
+    if (!user) {
+      throw new HttpException('Invalid Email!', HttpStatus.BAD_REQUEST);
+    }
+    if (newPassword !== confirmPassword) {
+      throw new HttpException(
+        'Your Password does not match',
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+    user['tempPassword'] = null;
+    user['password'] = await bcrypt.hash(newPassword, 10);
+    user['userStatus'] = UserStatus.ACTIVE;
+
+    return await this.login(await this.userRepo.save(user));
   }
 
   async login(userPayload: User): Promise<LoginOutput> {

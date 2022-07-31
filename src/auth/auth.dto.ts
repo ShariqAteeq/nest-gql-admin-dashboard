@@ -30,3 +30,15 @@ export class AccessTokenOutput {
   @Field(() => [Role])
   role: Role[];
 }
+
+@InputType()
+export class ResetPasswordInput {
+  @Field()
+  email: string;
+
+  @Field()
+  newPassword: string;
+
+  @Field()
+  confirmPassword: string;
+}
