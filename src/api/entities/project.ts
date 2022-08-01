@@ -76,4 +76,8 @@ export class Project {
   @ManyToOne(() => User, (user) => user.id, { nullable: true })
   @Field(() => User, { nullable: true })
   logCreatedBy: User;
+
+  @ManyToOne(() => User, (user) => user.id, { nullable: true })
+  @Field(() => User, { nullable: true })
+  logUpdatedBy: User;
 }

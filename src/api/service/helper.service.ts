@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+import * as moment from 'moment';
 
 @Injectable()
 export class HelperService {
@@ -30,7 +31,10 @@ export class HelperService {
     const data = Object.keys(obj).map((key) => {
       return { [key.replace(replaceStr, '')]: obj[key] };
     });
-
     return data;
+  }
+
+  public getCurrentDate(format = 'YYYY-MM-DD'): Date {
+    return new Date(moment().format(format));
   }
 }
