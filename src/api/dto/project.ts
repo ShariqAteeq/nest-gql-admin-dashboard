@@ -1,5 +1,5 @@
 import { Field, InputType, registerEnumType } from '@nestjs/graphql';
-import { ProjectStatus } from 'src/helpers/constant';
+import { ProjectStatus, UserStatus } from 'src/helpers/constant';
 
 @InputType()
 export class AddProjectInput {
@@ -21,10 +21,28 @@ registerEnumType(ProjectStatus, {
   name: 'ProjectStatus',
 });
 
+registerEnumType(UserStatus, {
+  name: 'UserStatus',
+});
+
 @InputType()
 export class ProjectInput {
   @Field({ nullable: true })
   id: number;
   @Field({ nullable: true })
   status: ProjectStatus;
+}
+
+@InputType()
+export class AssignEmployeeInput {
+  @Field()
+  projectId: number;
+  @Field()
+  employeeId: number;
+  @Field()
+  startDate: Date;
+  @Field({ nullable: true })
+  endDate: number;
+  @Field()
+  status: UserStatus;
 }

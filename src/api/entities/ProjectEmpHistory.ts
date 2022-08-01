@@ -23,22 +23,22 @@ export class ProjectEmpHistory {
   @Field()
   id: number;
 
-  @OneToOne(() => Project, (chil) => chil.id)
+  @OneToOne(() => Project, (chil) => chil.id, { nullable: true })
   @JoinColumn()
   @Field(() => Project, { nullable: true })
   project: Project;
 
-  @OneToOne(() => Employee, (chil) => chil.id)
+  @OneToOne(() => Employee, (chil) => chil.id, { nullable: true })
   @JoinColumn()
   @Field(() => Employee, { nullable: true })
   employee: Employee;
 
-  @ManyToMany(() => Project, (child) => child.employees)
+  @ManyToMany(() => Project, (child) => child.employees, { nullable: true })
   @JoinTable({ name: 'project_emp_relation' })
   @Field(() => [Project], { nullable: true })
   projects: Project[];
 
-  @OneToOne(() => Company, (chil) => chil.id)
+  @OneToOne(() => Company, (chil) => chil.id, { nullable: true })
   @JoinColumn()
   @Field({ nullable: true })
   company: Company;
@@ -74,4 +74,8 @@ export class ProjectEmpHistory {
   @ManyToOne(() => User, (user) => user.id, { nullable: true })
   @Field(() => User, { nullable: true })
   logCreatedBy: User;
+
+  @ManyToOne(() => User, (user) => user.id, { nullable: true })
+  @Field(() => User, { nullable: true })
+  logUpdatedBy: User;
 }

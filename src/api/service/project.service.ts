@@ -1,7 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { Context } from '@nestjs/graphql';
 import { InjectRepository } from '@nestjs/typeorm';
-import * as moment from 'moment';
 import { AuthService } from 'src/auth/auth.service';
 import { ProjectStatus } from 'src/helpers/constant';
 import { Repository } from 'typeorm';
@@ -78,4 +77,6 @@ export class ProjectService {
     pro['logUpdatedBy'] = user;
     return await this.proRepo.save(pro);
   }
+
+  // async assignEmpToProject()
 }
