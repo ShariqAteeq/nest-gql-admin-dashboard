@@ -31,6 +31,8 @@ export class ProjectInput {
   id: number;
   @Field({ nullable: true })
   status: ProjectStatus;
+  @Field({ nullable: true })
+  empStatus: UserStatus;
 }
 
 @InputType()
@@ -42,7 +44,7 @@ export class AssignEmployeeInput {
   @Field()
   startDate: Date;
   @Field({ nullable: true })
-  endDate: number;
+  endDate: Date;
   @Field()
   status: UserStatus;
 }

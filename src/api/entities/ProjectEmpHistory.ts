@@ -11,8 +11,9 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Company } from './company';
 import { Employee } from './employee';
+// import { Company } from './company';
+// import { Employee } from './employee';
 import { Project } from './project';
 import { User } from './user';
 
@@ -23,13 +24,25 @@ export class ProjectEmpHistory {
   @Field()
   id: number;
 
-  @OneToOne(() => Project, (chil) => chil.id, { nullable: true })
-  @JoinColumn()
-  @Field(() => Project, { nullable: true })
-  project: Project;
+  @Column()
+  @Field()
+  projectId: number;
 
-  @OneToOne(() => Employee, (chil) => chil.id, { nullable: true })
-  @JoinColumn()
+  @Column()
+  @Field()
+  employeeId: number;
+
+  @Column()
+  @Field()
+  companyId: number;
+
+  // @OneToOne(() => Project, (chil) => chil.id, { nullable: true })
+  // @JoinColumn()
+  // @Field(() => Project, { nullable: true })
+  // project: Project;
+
+  @OneToOne(() => Employee, (chil) => chil.id)
+  @JoinColumn({ name: 'empId' })
   @Field(() => Employee, { nullable: true })
   employee: Employee;
 
@@ -38,10 +51,10 @@ export class ProjectEmpHistory {
   @Field(() => [Project], { nullable: true })
   projects: Project[];
 
-  @OneToOne(() => Company, (chil) => chil.id, { nullable: true })
-  @JoinColumn()
-  @Field({ nullable: true })
-  company: Company;
+  // @OneToOne(() => Company, (chil) => chil.id, { nullable: true })
+  // @JoinColumn()
+  // @Field({ nullable: true })
+  // company: Company;
 
   @Column()
   @Field({ nullable: true })

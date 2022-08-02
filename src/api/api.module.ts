@@ -4,6 +4,7 @@ import { AuthModule } from 'src/auth/auth.module';
 import { Company } from './entities/company';
 import { Employee } from './entities/employee';
 import { Project } from './entities/project';
+import { ProjectEmpHistory } from './entities/ProjectEmpHistory';
 import { SMSToken } from './entities/token';
 import { User } from './entities/user';
 import { CompanyResolver } from './resolver/company.resolver';
@@ -25,6 +26,7 @@ import { UserService } from './service/user.service';
     TypeOrmModule.forFeature([Company]),
     TypeOrmModule.forFeature([Project]),
     TypeOrmModule.forFeature([SMSToken]),
+    TypeOrmModule.forFeature([ProjectEmpHistory]),
   ],
   providers: [
     UserResolver,

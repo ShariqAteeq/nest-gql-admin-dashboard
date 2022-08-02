@@ -4,15 +4,24 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { AuthService } from 'src/auth/auth.service';
 import { ProjectStatus } from 'src/helpers/constant';
 import { Repository } from 'typeorm';
-import { AddProjectInput, ProjectInput } from '../dto/project';
+import {
+  AddProjectInput,
+  AssignEmployeeInput,
+  ProjectInput,
+} from '../dto/project';
 import { Project } from '../entities/project';
+import { ProjectEmpHistory } from '../entities/ProjectEmpHistory';
+import { EmployeeService } from './employee.service';
 import { HelperService } from './helper.service';
 
 @Injectable()
 export class ProjectService {
   constructor(
     @InjectRepository(Project) private proRepo: Repository<Project>,
+    @InjectRepository(ProjectEmpHistory)
+    private proEmpRepo: Repository<ProjectEmpHistory>,
     private authService: AuthService,
+    private empService: EmployeeService,
     private helperService: HelperService,
   ) {}
 
@@ -78,5 +87,50 @@ export class ProjectService {
     return await this.proRepo.save(pro);
   }
 
-  // async assignEmpToProject()
+  async assignEmpToProject(
+    input: AssignEmployeeInput,
+    @Context() context,
+  ): Promise<Boolean> {
+    const user = await this.authService.getUserFromContext(context);
+    const employee = await this.empService.employee(input['employeeId']);
+    if (!employee) {
+      throw new HttpException('Employee not found!', HttpStatus.NOT_FOUND);
+    }
+    const employeeExist = await this.proEmpRepo.findOne({
+      where: {
+        projectId: input['projectId'],
+        companyId: user['company']['id'],
+        employeeId: input['employeeId'],
+      },
+    });
+
+    if (employeeExist) {
+      throw new HttpException(
+        'Employee Already Assigned!',
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+
+    const proEmpRelation = new ProjectEmpHistory();
+    proEmpRelation['companyId'] = user['company']['id'];
+    proEmpRelation['employeeId'] = input['employeeId'];
+    proEmpRelation['projectId'] = input['projectId'];
+    proEmpRelation['startDate'] = input['startDate'];
+    proEmpRelation['endDate'] = input?.['endDate'];
+    proEmpRelation['status'] = input['status'];
+    proEmpRelation['logCreatedBy'] = user;
+    proEmpRelation['logUpdatedBy'] = user;
+    proEmpRelation['employee'] = employee;
+    await this.proEmpRepo.save(proEmpRelation);
+    return true;
+  }
+
+  async listProjectEmployees(
+    input: ProjectInput,
+  ): Promise<ProjectEmpHistory[]> {
+    return await this.proEmpRepo.find({
+      where: { projectId: input['id'], status: input['empStatus'] },
+      relations: ['employee'],
+    });
+  }
 }
