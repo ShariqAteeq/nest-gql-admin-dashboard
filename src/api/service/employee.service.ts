@@ -2,10 +2,11 @@ import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { Context } from '@nestjs/graphql';
 import { InjectRepository } from '@nestjs/typeorm';
 import { AuthService } from 'src/auth/auth.service';
-import { Role, UserStatus } from 'src/helpers/constant';
+import { ProjectStatus, Role, UserStatus } from 'src/helpers/constant';
 import { Repository } from 'typeorm';
 import { AddEmployeeInput } from '../dto/employee';
 import { Employee } from '../entities/employee';
+import { ProjectEmpHistory } from '../entities/ProjectEmpHistory';
 import { User } from '../entities/user';
 import { HelperService } from './helper.service';
 
@@ -14,6 +15,8 @@ export class EmployeeService {
   constructor(
     @InjectRepository(Employee) private empRepo: Repository<Employee>,
     @InjectRepository(User) private userRepo: Repository<User>,
+    @InjectRepository(ProjectEmpHistory)
+    private proEmpRepo: Repository<ProjectEmpHistory>,
     private helperService: HelperService,
     private auth: AuthService,
   ) {}
@@ -71,5 +74,15 @@ export class EmployeeService {
       throw new HttpException('Employee not found!', HttpStatus.NOT_FOUND);
     }
     return emp;
+  }
+
+  async listEmployeeProjects(
+    projectId: number,
+    status: UserStatus,
+  ): Promise<ProjectEmpHistory[]> {
+    return await this.proEmpRepo.find({
+      where: { projectId, status },
+      relations: ['employee', 'project'],
+    });
   }
 }

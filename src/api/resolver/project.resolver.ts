@@ -3,8 +3,9 @@ import { Roles } from 'src/decorators/roles.decorator';
 import { Role } from 'src/helpers/constant';
 import {
   AddProjectInput,
-  AssignEmployeeInput,
+  AssignEmployeeToProjectInput,
   ProjectInput,
+  RemoveEmployeeFromProjectInput,
 } from '../dto/project';
 import { Project } from '../entities/project';
 import { ProjectEmpHistory } from '../entities/ProjectEmpHistory';
@@ -56,9 +57,16 @@ export class ProjectResolver {
 
   @Mutation(() => Boolean)
   async assignEmpToProject(
-    @Args('input') input: AssignEmployeeInput,
+    @Args('input') input: AssignEmployeeToProjectInput,
     @Context() context,
   ): Promise<Boolean> {
     return await this.proService.assignEmpToProject(input, context);
+  }
+
+  @Mutation(() => Boolean)
+  async removeEmpToProject(
+    @Args('input') input: RemoveEmployeeFromProjectInput,
+  ): Promise<Boolean> {
+    return await this.proService.removeEmployeeFromProject(input);
   }
 }

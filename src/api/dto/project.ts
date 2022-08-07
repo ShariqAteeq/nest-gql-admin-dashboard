@@ -36,7 +36,7 @@ export class ProjectInput {
 }
 
 @InputType()
-export class AssignEmployeeInput {
+export class AssignEmployeeToProjectInput {
   @Field()
   projectId: number;
   @Field()
@@ -47,4 +47,12 @@ export class AssignEmployeeInput {
   endDate: Date;
   @Field()
   status: UserStatus;
+}
+
+@InputType()
+export class RemoveEmployeeFromProjectInput {
+  @Field()
+  projectId: number;
+  @Field()
+  employeeId: number;
 }

@@ -6,8 +6,9 @@ import { ProjectStatus } from 'src/helpers/constant';
 import { Repository } from 'typeorm';
 import {
   AddProjectInput,
-  AssignEmployeeInput,
+  AssignEmployeeToProjectInput,
   ProjectInput,
+  RemoveEmployeeFromProjectInput,
 } from '../dto/project';
 import { Project } from '../entities/project';
 import { ProjectEmpHistory } from '../entities/ProjectEmpHistory';
@@ -88,14 +89,12 @@ export class ProjectService {
   }
 
   async assignEmpToProject(
-    input: AssignEmployeeInput,
+    input: AssignEmployeeToProjectInput,
     @Context() context,
   ): Promise<Boolean> {
     const user = await this.authService.getUserFromContext(context);
     const employee = await this.empService.employee(input['employeeId']);
-    if (!employee) {
-      throw new HttpException('Employee not found!', HttpStatus.NOT_FOUND);
-    }
+    const project = await this.project(input['projectId']);
     const employeeExist = await this.proEmpRepo.findOne({
       where: {
         projectId: input['projectId'],
@@ -121,6 +120,7 @@ export class ProjectService {
     proEmpRelation['logCreatedBy'] = user;
     proEmpRelation['logUpdatedBy'] = user;
     proEmpRelation['employee'] = employee;
+    proEmpRelation['project'] = project;
     await this.proEmpRepo.save(proEmpRelation);
     return true;
   }
@@ -132,5 +132,24 @@ export class ProjectService {
       where: { projectId: input['id'], status: input['empStatus'] },
       relations: ['employee'],
     });
+  }
+
+  async removeEmployeeFromProject(
+    input: RemoveEmployeeFromProjectInput,
+  ): Promise<Boolean> {
+    let employeeExist = await this.proEmpRepo.findOne({
+      where: {
+        projectId: input['projectId'],
+        employeeId: input['employeeId'],
+      },
+    });
+
+    if (!employeeExist) {
+      throw new HttpException('Employee does mot exist!', HttpStatus.NOT_FOUND);
+    }
+
+    await this.proEmpRepo.delete({ id: employeeExist['id'] });
+
+    return true;
   }
 }

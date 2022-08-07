@@ -63,12 +63,6 @@ export class Project {
   @Field()
   companyId: number;
 
-  @ManyToMany(() => ProjectEmpHistory, (child) => child.projects, {
-    nullable: true,
-  })
-  @Field(() => [ProjectEmpHistory], { nullable: true })
-  employees: ProjectEmpHistory[];
-
   //   @ManyToOne(() => Company, (child) => child.projects, { nullable: true })
   //   @Field(() => Company, { nullable: true })
   //   company: Company;
