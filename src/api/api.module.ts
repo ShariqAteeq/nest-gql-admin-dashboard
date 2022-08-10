@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from 'src/auth/auth.module';
 import { Company } from './entities/company';
 import { Employee } from './entities/employee';
+import { Expense } from './entities/expense';
 import { Project } from './entities/project';
 import { ProjectEmpHistory } from './entities/ProjectEmpHistory';
 import { SMSToken } from './entities/token';
@@ -13,6 +14,7 @@ import { ProjectResolver } from './resolver/project.resolver';
 import { UserResolver } from './resolver/user.resolver';
 import { CompanyService } from './service/company.service';
 import { EmployeeService } from './service/employee.service';
+import { ExpenseService } from './service/expense.service';
 import { HelperService } from './service/helper.service';
 import { NotificationService } from './service/notification.service';
 import { ProjectService } from './service/project.service';
@@ -27,10 +29,12 @@ import { UserService } from './service/user.service';
     TypeOrmModule.forFeature([Project]),
     TypeOrmModule.forFeature([SMSToken]),
     TypeOrmModule.forFeature([ProjectEmpHistory]),
+    TypeOrmModule.forFeature([Expense]),
   ],
   providers: [
     UserResolver,
     UserService,
+    ExpenseService,
     ProjectService,
     EmployeeResolver,
     HelperService,
