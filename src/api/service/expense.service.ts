@@ -3,7 +3,7 @@ import { Context } from '@nestjs/graphql';
 import { InjectRepository } from '@nestjs/typeorm';
 import { AuthService } from 'src/auth/auth.service';
 import { Repository } from 'typeorm';
-import { ExpenseInput } from '../dto/expense';
+import { ExpenseInput, ListExpenseInput } from '../dto/expense';
 import { Expense } from '../entities/expense';
 import { EmployeeService } from './employee.service';
 import { ProjectService } from './project.service';
@@ -73,5 +73,19 @@ export class ExpenseService {
   async deleteExpense(id: number): Promise<Boolean> {
     await this.expenseRepo.delete({ id });
     return true;
+  }
+
+  async listExpense(
+    input: ListExpenseInput,
+    @Context() context,
+  ): Promise<Expense[]> {
+    const user = await this.authService.getUserFromContext(context);
+    return await this.expenseRepo.find({
+      where: {
+        companyId: user?.['company']?.['id'],
+        projectId: input?.['projectId'],
+        employeeId: input?.['employeeId'],
+      },
+    });
   }
 }

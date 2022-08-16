@@ -10,6 +10,7 @@ import { SMSToken } from './entities/token';
 import { User } from './entities/user';
 import { CompanyResolver } from './resolver/company.resolver';
 import { EmployeeResolver } from './resolver/employee.resolver';
+import { ExpenseResolver } from './resolver/expense.resolver';
 import { ProjectResolver } from './resolver/project.resolver';
 import { UserResolver } from './resolver/user.resolver';
 import { CompanyService } from './service/company.service';
@@ -42,6 +43,7 @@ import { UserService } from './service/user.service';
     NotificationService,
     CompanyService,
     CompanyResolver,
+    ExpenseResolver,
     ProjectResolver,
   ],
   exports: [],

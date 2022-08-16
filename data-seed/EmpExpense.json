@@ -1,0 +1,7004 @@
+{
+  "empData": [
+    {
+      "amount": 88473,
+      "expenseTypeId": 4,
+      "name": "Beauty",
+      "date": "2022-03-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 29413,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2022-03-14",
+      "employeeId": 33
+    },
+    {
+      "amount": 77369,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2021-09-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 67664,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2022-01-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 82569,
+      "expenseTypeId": 3,
+      "name": "Shoes",
+      "date": "2021-11-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 74053,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-02-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 47392,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2022-02-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 6844,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-08-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 89389,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-12-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 8296,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-07-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 14671,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2021-12-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 55811,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2021-11-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 66521,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2021-12-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 38827,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-12-28",
+      "employeeId": 33
+    },
+    {
+      "amount": 15688,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-07-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 59023,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2022-02-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 40642,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-05-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 70923,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-03-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 55499,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2021-09-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 12181,
+      "expenseTypeId": 4,
+      "name": "Games",
+      "date": "2021-10-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 92339,
+      "expenseTypeId": 4,
+      "name": "Beauty",
+      "date": "2021-11-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 73266,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2021-12-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 98682,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-02-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 37291,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2021-12-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 97537,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2022-06-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 82599,
+      "expenseTypeId": 5,
+      "name": "Kids",
+      "date": "2021-10-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 63756,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-03-26",
+      "employeeId": 32
+    },
+    {
+      "amount": 67598,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2021-11-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 33086,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2022-07-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 46258,
+      "expenseTypeId": 5,
+      "name": "Home",
+      "date": "2022-01-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 41698,
+      "expenseTypeId": 4,
+      "name": "Home",
+      "date": "2021-09-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 64595,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2021-12-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 77306,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-07-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 42630,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-01-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 62907,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2021-12-30",
+      "employeeId": 33
+    },
+    {
+      "amount": 67503,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-04-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 94583,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2022-06-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 12055,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-03-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 52159,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-07-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 74640,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2021-11-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 64160,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2022-06-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 60629,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-02-14",
+      "employeeId": 33
+    },
+    {
+      "amount": 43959,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-11-16",
+      "employeeId": 30
+    },
+    {
+      "amount": 7668,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2021-08-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 4471,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2021-10-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 40129,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2022-01-13",
+      "employeeId": 30
+    },
+    {
+      "amount": 22559,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-01-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 4859,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2022-05-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 15003,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2022-08-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 21371,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-05-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 22409,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2022-02-13",
+      "employeeId": 30
+    },
+    {
+      "amount": 49942,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2022-08-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 77267,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2022-06-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 59979,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2022-07-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 8916,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-12-31",
+      "employeeId": 32
+    },
+    {
+      "amount": 83247,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2021-10-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 1970,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-04-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 39382,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2021-09-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 60886,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-11-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 12072,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2022-06-19",
+      "employeeId": 33
+    },
+    {
+      "amount": 28367,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-06-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 24738,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2021-11-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 57942,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-07-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 33131,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2021-08-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 5454,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2022-04-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 16731,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2022-05-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 95512,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2022-03-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 99373,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2021-10-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 47121,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2022-05-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 90100,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2021-12-07",
+      "employeeId": 33
+    },
+    {
+      "amount": 89632,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2022-03-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 50596,
+      "expenseTypeId": 5,
+      "name": "Home",
+      "date": "2022-04-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 38550,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2022-04-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 54928,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2021-10-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 13692,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2022-03-05",
+      "employeeId": 32
+    },
+    {
+      "amount": 81312,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-07-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 61023,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2021-11-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 65980,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2021-11-30",
+      "employeeId": 30
+    },
+    {
+      "amount": 28972,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-06-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 35661,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2022-04-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 59037,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2021-08-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 64771,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2021-09-20",
+      "employeeId": 31
+    },
+    {
+      "amount": 73904,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2021-08-21",
+      "employeeId": 32
+    },
+    {
+      "amount": 55795,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-02-11",
+      "employeeId": 30
+    },
+    {
+      "amount": 48702,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2021-12-07",
+      "employeeId": 33
+    },
+    {
+      "amount": 39702,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-09-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 73023,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2022-03-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 70101,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2022-07-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 61181,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2021-09-28",
+      "employeeId": 33
+    },
+    {
+      "amount": 28870,
+      "expenseTypeId": 4,
+      "name": "Kids",
+      "date": "2022-02-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 22442,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-03-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 55958,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-04-25",
+      "employeeId": 33
+    },
+    {
+      "amount": 25571,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-01-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 24722,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2022-04-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 85113,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-06-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 75118,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2022-01-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 11084,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2021-12-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 50756,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-03-25",
+      "employeeId": 33
+    },
+    {
+      "amount": 65594,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2022-02-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 42236,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2022-05-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 99220,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2021-11-05",
+      "employeeId": 33
+    },
+    {
+      "amount": 41395,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2021-12-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 29292,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-10-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 33912,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-10-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 63468,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2022-03-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 23271,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2021-11-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 31828,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-03-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 57781,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2022-04-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 93459,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2022-03-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 52112,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-11-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 40230,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2022-04-30",
+      "employeeId": 31
+    },
+    {
+      "amount": 81260,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2021-09-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 27940,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2021-12-28",
+      "employeeId": 32
+    },
+    {
+      "amount": 77814,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2022-01-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 26134,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2021-12-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 38992,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-11-30",
+      "employeeId": 31
+    },
+    {
+      "amount": 90991,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2022-07-28",
+      "employeeId": 32
+    },
+    {
+      "amount": 78659,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2021-09-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 18269,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2021-10-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 36978,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2021-09-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 54620,
+      "expenseTypeId": 4,
+      "name": "Grocery",
+      "date": "2022-03-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 60181,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-08-04",
+      "employeeId": 32
+    },
+    {
+      "amount": 61233,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2021-11-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 2858,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2022-08-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 88128,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2022-04-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 12119,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2022-04-13",
+      "employeeId": 30
+    },
+    {
+      "amount": 87794,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-09-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 17885,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2021-10-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 62211,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2022-03-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 88335,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2021-08-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 76516,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-08-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 52764,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-12-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 79555,
+      "expenseTypeId": 3,
+      "name": "Movies",
+      "date": "2021-11-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 13380,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2021-08-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 47227,
+      "expenseTypeId": 4,
+      "name": "Grocery",
+      "date": "2022-04-23",
+      "employeeId": 33
+    },
+    {
+      "amount": 84443,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-08-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 49619,
+      "expenseTypeId": 5,
+      "name": "Games",
+      "date": "2021-11-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 44518,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2022-01-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 61945,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2022-04-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 29731,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-06-15",
+      "employeeId": 33
+    },
+    {
+      "amount": 11356,
+      "expenseTypeId": 5,
+      "name": "Kids",
+      "date": "2022-05-23",
+      "employeeId": 33
+    },
+    {
+      "amount": 78160,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-02-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 6969,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2022-08-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 20499,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2022-07-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 93365,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-01-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 57020,
+      "expenseTypeId": 2,
+      "name": "Beauty",
+      "date": "2022-03-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 83955,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2022-06-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 34685,
+      "expenseTypeId": 4,
+      "name": "Beauty",
+      "date": "2021-10-20",
+      "employeeId": 30
+    },
+    {
+      "amount": 98852,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-08-13",
+      "employeeId": 33
+    },
+    {
+      "amount": 33102,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2021-08-21",
+      "employeeId": 30
+    },
+    {
+      "amount": 6997,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2022-04-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 40057,
+      "expenseTypeId": 3,
+      "name": "Beauty",
+      "date": "2021-11-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 46029,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-12-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 21481,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-07-26",
+      "employeeId": 32
+    },
+    {
+      "amount": 44191,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-05-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 97994,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-07-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 65291,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-04-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 51766,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-07-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 42881,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2022-03-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 79178,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2021-09-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 6569,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2021-09-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 74846,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2021-11-16",
+      "employeeId": 30
+    },
+    {
+      "amount": 73505,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-05-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 50420,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2022-03-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 2931,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-08-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 93188,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-06-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 34186,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2021-08-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 98652,
+      "expenseTypeId": 4,
+      "name": "Home",
+      "date": "2022-01-21",
+      "employeeId": 32
+    },
+    {
+      "amount": 53783,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-05-04",
+      "employeeId": 32
+    },
+    {
+      "amount": 87601,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-01-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 59657,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2021-11-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 11958,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2022-07-24",
+      "employeeId": 32
+    },
+    {
+      "amount": 37657,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2022-02-11",
+      "employeeId": 30
+    },
+    {
+      "amount": 34695,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2021-09-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 2613,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2021-12-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 11450,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2022-05-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 18708,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2022-03-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 26821,
+      "expenseTypeId": 4,
+      "name": "Games",
+      "date": "2021-12-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 43459,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-02-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 64196,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2022-07-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 40816,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-08-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 24347,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2022-02-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 65693,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2021-11-11",
+      "employeeId": 30
+    },
+    {
+      "amount": 32088,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2022-06-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 12837,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2021-11-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 11097,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-09-10",
+      "employeeId": 30
+    },
+    {
+      "amount": 80253,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-06-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 82665,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2021-11-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 59469,
+      "expenseTypeId": 4,
+      "name": "Kids",
+      "date": "2022-08-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 54492,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-02-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 42066,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2021-08-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 76382,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2022-07-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 40498,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-06-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 60777,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2022-01-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 52078,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-04-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 20060,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2022-07-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 7520,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2021-11-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 9063,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2022-02-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 67093,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-02-11",
+      "employeeId": 30
+    },
+    {
+      "amount": 61048,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-04-19",
+      "employeeId": 30
+    },
+    {
+      "amount": 2550,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2021-10-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 22440,
+      "expenseTypeId": 4,
+      "name": "Beauty",
+      "date": "2022-08-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 96303,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-04-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 94370,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2022-02-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 95102,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-11-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 40836,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2022-04-21",
+      "employeeId": 32
+    },
+    {
+      "amount": 68749,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-12-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 48977,
+      "expenseTypeId": 3,
+      "name": "Movies",
+      "date": "2022-03-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 59059,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-01-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 5826,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-10-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 10477,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2022-02-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 33524,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2021-12-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 18448,
+      "expenseTypeId": 3,
+      "name": "Beauty",
+      "date": "2021-08-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 97653,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-02-15",
+      "employeeId": 31
+    },
+    {
+      "amount": 58751,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2021-10-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 88587,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2021-12-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 4368,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-06-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 59853,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-02-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 63200,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-02-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 88874,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2021-08-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 72925,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-10-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 61611,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2022-03-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 47217,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-01-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 32640,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-11-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 32042,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2021-08-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 25583,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-11-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 34420,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-01-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 36024,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-06-04",
+      "employeeId": 30
+    },
+    {
+      "amount": 78963,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2022-07-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 19187,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-05-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 19096,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-07-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 36227,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-05-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 70139,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-07-11",
+      "employeeId": 30
+    },
+    {
+      "amount": 63836,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2021-12-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 69949,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-02-23",
+      "employeeId": 33
+    },
+    {
+      "amount": 74918,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2022-04-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 91072,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-02-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 75216,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-01-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 57837,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-07-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 22124,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2021-08-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 1241,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2021-09-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 93058,
+      "expenseTypeId": 4,
+      "name": "Kids",
+      "date": "2021-08-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 62733,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2021-10-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 37528,
+      "expenseTypeId": 4,
+      "name": "Kids",
+      "date": "2022-01-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 59799,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2021-12-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 88245,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2021-09-10",
+      "employeeId": 30
+    },
+    {
+      "amount": 50241,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2022-02-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 34303,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2021-12-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 42590,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2022-04-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 68523,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2022-03-21",
+      "employeeId": 30
+    },
+    {
+      "amount": 98157,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2022-05-28",
+      "employeeId": 33
+    },
+    {
+      "amount": 42245,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-12-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 17327,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2021-11-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 79389,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2022-07-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 92794,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2022-05-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 27164,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2022-07-04",
+      "employeeId": 30
+    },
+    {
+      "amount": 4033,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2022-05-04",
+      "employeeId": 32
+    },
+    {
+      "amount": 35503,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2022-05-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 15803,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-03-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 47126,
+      "expenseTypeId": 4,
+      "name": "Games",
+      "date": "2021-11-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 66566,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-02-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 68007,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2022-02-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 75713,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2021-10-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 49287,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-05-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 10655,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2021-08-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 23135,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2021-11-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 48467,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2022-05-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 86520,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2021-11-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 52263,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2022-06-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 79205,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2021-12-13",
+      "employeeId": 31
+    },
+    {
+      "amount": 21196,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2021-12-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 44853,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-03-21",
+      "employeeId": 32
+    },
+    {
+      "amount": 40428,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2022-01-15",
+      "employeeId": 30
+    },
+    {
+      "amount": 17508,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2021-12-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 21592,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-07-31",
+      "employeeId": 30
+    },
+    {
+      "amount": 37917,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2021-10-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 62712,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2021-10-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 66386,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2021-12-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 83513,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-01-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 49154,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-03-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 76206,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2021-09-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 71338,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-03-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 66081,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2022-08-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 27943,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-07-05",
+      "employeeId": 32
+    },
+    {
+      "amount": 21754,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2022-02-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 12794,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-06-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 5503,
+      "expenseTypeId": 1,
+      "name": "Outdoors",
+      "date": "2021-12-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 95981,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2022-02-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 84033,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-01-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 97279,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2022-07-15",
+      "employeeId": 33
+    },
+    {
+      "amount": 2469,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2022-06-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 48863,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-01-23",
+      "employeeId": 30
+    },
+    {
+      "amount": 14665,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-09-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 99343,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-07-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 4773,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2021-08-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 26786,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2022-05-04",
+      "employeeId": 32
+    },
+    {
+      "amount": 44181,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2022-04-11",
+      "employeeId": 30
+    },
+    {
+      "amount": 40798,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2021-09-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 47479,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2022-01-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 64183,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2021-11-12",
+      "employeeId": 32
+    },
+    {
+      "amount": 31265,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2021-10-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 78683,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2021-12-20",
+      "employeeId": 31
+    },
+    {
+      "amount": 2295,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2021-10-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 56238,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-08-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 61225,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-10-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 42592,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-05-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 21424,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2022-07-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 57747,
+      "expenseTypeId": 2,
+      "name": "Outdoors",
+      "date": "2022-07-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 61474,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-12-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 55677,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2021-10-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 15075,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2021-12-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 20306,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-01-23",
+      "employeeId": 33
+    },
+    {
+      "amount": 87444,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2021-11-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 84397,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2022-06-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 3741,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-02-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 64219,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2021-10-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 18579,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2022-06-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 16747,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2022-07-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 11527,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-07-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 52332,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2021-10-20",
+      "employeeId": 30
+    },
+    {
+      "amount": 45776,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2022-05-25",
+      "employeeId": 32
+    },
+    {
+      "amount": 71843,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-04-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 53152,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2021-10-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 34271,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2022-07-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 90338,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-09-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 41900,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2022-06-10",
+      "employeeId": 31
+    },
+    {
+      "amount": 90818,
+      "expenseTypeId": 5,
+      "name": "Home",
+      "date": "2022-01-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 63400,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2021-12-31",
+      "employeeId": 30
+    },
+    {
+      "amount": 61432,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2022-03-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 1907,
+      "expenseTypeId": 5,
+      "name": "Kids",
+      "date": "2022-06-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 67626,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-08-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 48947,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2021-10-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 5021,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-04-19",
+      "employeeId": 30
+    },
+    {
+      "amount": 74930,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-09-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 97401,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2021-10-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 22771,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-11-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 26662,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-10-12",
+      "employeeId": 31
+    },
+    {
+      "amount": 9409,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2022-06-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 62094,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2021-09-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 35570,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2021-08-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 46029,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2021-08-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 52284,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-08-20",
+      "employeeId": 30
+    },
+    {
+      "amount": 16251,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-12-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 89166,
+      "expenseTypeId": 2,
+      "name": "Outdoors",
+      "date": "2021-12-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 53599,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2022-01-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 32240,
+      "expenseTypeId": 5,
+      "name": "Home",
+      "date": "2022-05-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 25599,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-12-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 20743,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2022-01-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 39631,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2021-10-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 25725,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-11-26",
+      "employeeId": 32
+    },
+    {
+      "amount": 14953,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2022-07-12",
+      "employeeId": 32
+    },
+    {
+      "amount": 54590,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2021-12-25",
+      "employeeId": 31
+    },
+    {
+      "amount": 72170,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2021-12-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 16808,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-04-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 58852,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-11-25",
+      "employeeId": 33
+    },
+    {
+      "amount": 86839,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2021-11-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 71651,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2021-11-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 89699,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2021-09-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 39993,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-06-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 14946,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2021-08-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 63823,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2022-07-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 73700,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2022-02-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 58134,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2021-12-28",
+      "employeeId": 32
+    },
+    {
+      "amount": 97436,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-07-23",
+      "employeeId": 30
+    },
+    {
+      "amount": 80842,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-02-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 52591,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2022-05-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 9472,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-10-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 42989,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-07-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 37659,
+      "expenseTypeId": 3,
+      "name": "Movies",
+      "date": "2021-08-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 73535,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-10-29",
+      "employeeId": 30
+    },
+    {
+      "amount": 73005,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-09-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 42366,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2021-11-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 93291,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-06-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 48177,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2022-04-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 94279,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-07-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 23349,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2022-04-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 33931,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-07-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 24273,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-03-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 22782,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-08-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 44060,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2021-09-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 85752,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2021-10-15",
+      "employeeId": 30
+    },
+    {
+      "amount": 92154,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2022-06-20",
+      "employeeId": 31
+    },
+    {
+      "amount": 47270,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2021-12-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 49624,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-05-25",
+      "employeeId": 31
+    },
+    {
+      "amount": 12760,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2021-11-14",
+      "employeeId": 33
+    },
+    {
+      "amount": 78612,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2021-11-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 95819,
+      "expenseTypeId": 2,
+      "name": "Outdoors",
+      "date": "2021-09-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 80570,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2022-01-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 7266,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-05-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 88596,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2022-04-05",
+      "employeeId": 33
+    },
+    {
+      "amount": 36651,
+      "expenseTypeId": 3,
+      "name": "Shoes",
+      "date": "2022-08-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 66201,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2022-01-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 54530,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2021-10-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 54448,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2021-11-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 44321,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-03-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 76789,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2021-11-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 65433,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2022-02-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 47253,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2022-05-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 38533,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2021-09-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 35360,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2021-09-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 9538,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-02-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 17165,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2022-01-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 30019,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-08-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 16737,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-05-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 67170,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2021-09-23",
+      "employeeId": 33
+    },
+    {
+      "amount": 20232,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2022-01-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 19377,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2022-02-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 62955,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2021-09-28",
+      "employeeId": 32
+    },
+    {
+      "amount": 57793,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2021-11-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 73573,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-07-20",
+      "employeeId": 31
+    },
+    {
+      "amount": 11660,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2022-06-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 9163,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2021-12-25",
+      "employeeId": 33
+    },
+    {
+      "amount": 19355,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2021-11-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 76737,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-12-14",
+      "employeeId": 30
+    },
+    {
+      "amount": 99334,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-04-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 37394,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2021-10-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 57965,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-03-05",
+      "employeeId": 32
+    },
+    {
+      "amount": 21087,
+      "expenseTypeId": 3,
+      "name": "Movies",
+      "date": "2021-10-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 50548,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-07-23",
+      "employeeId": 30
+    },
+    {
+      "amount": 45525,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2021-12-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 5496,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2022-08-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 23842,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2021-11-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 40036,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2021-08-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 76304,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-02-10",
+      "employeeId": 30
+    },
+    {
+      "amount": 65137,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-12-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 5701,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2021-11-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 91938,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-03-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 91281,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-08-13",
+      "employeeId": 31
+    },
+    {
+      "amount": 87768,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2022-02-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 24114,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-12-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 77920,
+      "expenseTypeId": 1,
+      "name": "Outdoors",
+      "date": "2022-03-10",
+      "employeeId": 30
+    },
+    {
+      "amount": 92113,
+      "expenseTypeId": 2,
+      "name": "Outdoors",
+      "date": "2021-10-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 16802,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-12-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 61951,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-08-05",
+      "employeeId": 32
+    },
+    {
+      "amount": 91234,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2022-01-14",
+      "employeeId": 30
+    },
+    {
+      "amount": 27681,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-02-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 68247,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2022-01-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 90582,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2022-04-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 59353,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2022-05-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 49162,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2021-12-19",
+      "employeeId": 33
+    },
+    {
+      "amount": 68413,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2022-02-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 42614,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-10-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 63043,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2021-10-21",
+      "employeeId": 32
+    },
+    {
+      "amount": 2504,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2021-11-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 18395,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2021-08-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 38413,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-12-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 50791,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-03-23",
+      "employeeId": 30
+    },
+    {
+      "amount": 28596,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2021-10-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 5734,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-03-14",
+      "employeeId": 30
+    },
+    {
+      "amount": 9233,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2022-02-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 66731,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2022-03-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 6687,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2021-09-30",
+      "employeeId": 33
+    },
+    {
+      "amount": 84222,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-01-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 79730,
+      "expenseTypeId": 3,
+      "name": "Beauty",
+      "date": "2021-12-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 24497,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2022-01-05",
+      "employeeId": 33
+    },
+    {
+      "amount": 39984,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2022-02-25",
+      "employeeId": 32
+    },
+    {
+      "amount": 25739,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-12-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 67704,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2022-08-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 97011,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-06-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 10087,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2022-06-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 26877,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2021-09-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 23478,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2021-08-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 82074,
+      "expenseTypeId": 5,
+      "name": "Games",
+      "date": "2021-09-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 62681,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2022-04-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 69482,
+      "expenseTypeId": 4,
+      "name": "Beauty",
+      "date": "2021-09-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 94701,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2021-10-12",
+      "employeeId": 32
+    },
+    {
+      "amount": 63412,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2022-06-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 16005,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2022-02-15",
+      "employeeId": 30
+    },
+    {
+      "amount": 71078,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2021-09-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 20637,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2021-12-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 59188,
+      "expenseTypeId": 2,
+      "name": "Electronics",
+      "date": "2021-12-12",
+      "employeeId": 31
+    },
+    {
+      "amount": 20924,
+      "expenseTypeId": 2,
+      "name": "Electronics",
+      "date": "2021-12-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 7401,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-07-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 66273,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2022-08-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 47413,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2022-02-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 70019,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-01-14",
+      "employeeId": 30
+    },
+    {
+      "amount": 35216,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2022-02-13",
+      "employeeId": 30
+    },
+    {
+      "amount": 26350,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-03-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 10081,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2021-09-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 74978,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2021-11-13",
+      "employeeId": 31
+    },
+    {
+      "amount": 31654,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2022-01-13",
+      "employeeId": 33
+    },
+    {
+      "amount": 72214,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2021-12-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 83160,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-12-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 71447,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2021-10-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 45012,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-06-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 25115,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-02-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 21419,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2021-08-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 7399,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-06-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 8983,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2022-06-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 34150,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-01-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 2199,
+      "expenseTypeId": 3,
+      "name": "Kids",
+      "date": "2021-08-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 29459,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2021-12-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 53726,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2021-10-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 78956,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2021-08-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 71886,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-10-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 77580,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2021-12-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 56432,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-10-25",
+      "employeeId": 32
+    },
+    {
+      "amount": 9671,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2021-09-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 36506,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2021-12-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 49625,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-03-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 55162,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2022-07-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 29753,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-07-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 80249,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2022-04-30",
+      "employeeId": 31
+    },
+    {
+      "amount": 66270,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2021-12-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 56299,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2021-10-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 11054,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2022-05-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 56946,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2021-09-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 79384,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2022-04-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 43973,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2021-09-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 94621,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-03-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 78149,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2022-01-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 98794,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2021-12-13",
+      "employeeId": 31
+    },
+    {
+      "amount": 40657,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2022-06-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 96357,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-08-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 98361,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2022-02-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 15725,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-09-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 17519,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2022-03-13",
+      "employeeId": 30
+    },
+    {
+      "amount": 34054,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2021-11-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 37731,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-02-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 98433,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-08-25",
+      "employeeId": 33
+    },
+    {
+      "amount": 76723,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-01-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 14489,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2022-02-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 56999,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-10-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 23290,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2022-07-15",
+      "employeeId": 30
+    },
+    {
+      "amount": 78286,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-10-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 5833,
+      "expenseTypeId": 5,
+      "name": "Industrial",
+      "date": "2022-01-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 68522,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2022-07-16",
+      "employeeId": 30
+    },
+    {
+      "amount": 13435,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2022-05-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 34592,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-01-04",
+      "employeeId": 30
+    },
+    {
+      "amount": 63255,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2022-03-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 51997,
+      "expenseTypeId": 2,
+      "name": "Beauty",
+      "date": "2022-06-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 59752,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2022-03-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 91801,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2022-05-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 13080,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2022-01-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 87809,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2022-05-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 65035,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-02-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 94175,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2022-06-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 80403,
+      "expenseTypeId": 3,
+      "name": "Kids",
+      "date": "2021-08-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 69354,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2021-11-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 71226,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-05-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 59199,
+      "expenseTypeId": 3,
+      "name": "Beauty",
+      "date": "2021-11-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 70871,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2021-08-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 26258,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-03-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 85324,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2021-10-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 77539,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-06-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 80713,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-05-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 57032,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-05-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 4747,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-05-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 8139,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-01-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 29032,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2021-11-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 82950,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2021-09-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 11695,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2022-06-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 40879,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-03-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 31427,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2021-08-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 39095,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-07-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 49496,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2022-06-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 91540,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2022-05-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 36243,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-02-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 20751,
+      "expenseTypeId": 4,
+      "name": "Games",
+      "date": "2022-07-31",
+      "employeeId": 32
+    },
+    {
+      "amount": 20121,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-10-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 34175,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-11-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 1729,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2022-02-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 32876,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-01-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 59397,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-06-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 71018,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2022-05-24",
+      "employeeId": 32
+    },
+    {
+      "amount": 75622,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2022-08-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 19323,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-05-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 96245,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-11-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 8544,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-01-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 9733,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2021-08-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 9364,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2022-04-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 16567,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2022-02-25",
+      "employeeId": 31
+    },
+    {
+      "amount": 6534,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-04-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 56908,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2022-05-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 70767,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-08-05",
+      "employeeId": 33
+    },
+    {
+      "amount": 3494,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2022-04-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 24759,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2021-08-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 52992,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2022-05-30",
+      "employeeId": 33
+    },
+    {
+      "amount": 95966,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2022-07-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 66588,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2022-07-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 37669,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2022-06-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 9375,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2021-09-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 68856,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-03-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 72404,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-07-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 91111,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2022-08-04",
+      "employeeId": 31
+    },
+    {
+      "amount": 36875,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-07-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 53162,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2021-08-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 88373,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-03-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 66054,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2022-01-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 42961,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2021-12-29",
+      "employeeId": 30
+    },
+    {
+      "amount": 18683,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-02-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 49314,
+      "expenseTypeId": 2,
+      "name": "Beauty",
+      "date": "2022-05-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 60025,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2022-05-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 39168,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-08-24",
+      "employeeId": 32
+    },
+    {
+      "amount": 70821,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-11-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 59657,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2021-10-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 83263,
+      "expenseTypeId": 2,
+      "name": "Beauty",
+      "date": "2021-11-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 89659,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-11-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 60366,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2022-02-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 34957,
+      "expenseTypeId": 1,
+      "name": "Shoes",
+      "date": "2021-09-13",
+      "employeeId": 31
+    },
+    {
+      "amount": 60284,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2021-09-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 20953,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-03-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 46378,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2021-11-30",
+      "employeeId": 31
+    },
+    {
+      "amount": 30885,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-08-15",
+      "employeeId": 31
+    },
+    {
+      "amount": 74585,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2022-05-30",
+      "employeeId": 30
+    },
+    {
+      "amount": 83616,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2021-11-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 35279,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-04-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 50288,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-03-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 99666,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2021-10-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 14302,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2022-01-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 47873,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2022-07-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 93970,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-02-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 15678,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2022-01-30",
+      "employeeId": 30
+    },
+    {
+      "amount": 59244,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2022-07-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 57828,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2021-11-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 13226,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2021-11-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 47775,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2021-09-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 19188,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2021-12-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 16865,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2021-09-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 5349,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2021-10-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 84588,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2021-12-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 88177,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2021-10-30",
+      "employeeId": 31
+    },
+    {
+      "amount": 50764,
+      "expenseTypeId": 4,
+      "name": "Kids",
+      "date": "2021-12-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 86446,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-05-25",
+      "employeeId": 31
+    },
+    {
+      "amount": 2424,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2021-10-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 22302,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2021-11-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 55530,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-07-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 94245,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2022-05-29",
+      "employeeId": 30
+    },
+    {
+      "amount": 64139,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-03-19",
+      "employeeId": 30
+    },
+    {
+      "amount": 88158,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-05-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 61993,
+      "expenseTypeId": 4,
+      "name": "Games",
+      "date": "2022-05-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 75464,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2021-11-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 31935,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-09-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 52322,
+      "expenseTypeId": 5,
+      "name": "Games",
+      "date": "2021-09-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 42274,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-07-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 16935,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2022-07-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 61909,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2021-10-14",
+      "employeeId": 33
+    },
+    {
+      "amount": 20828,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-01-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 1648,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2022-06-14",
+      "employeeId": 33
+    },
+    {
+      "amount": 12428,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2021-10-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 10173,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-11-19",
+      "employeeId": 30
+    },
+    {
+      "amount": 72945,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2022-06-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 21451,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2022-07-15",
+      "employeeId": 33
+    },
+    {
+      "amount": 39347,
+      "expenseTypeId": 4,
+      "name": "Home",
+      "date": "2022-03-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 82697,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2021-12-14",
+      "employeeId": 33
+    },
+    {
+      "amount": 2456,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-07-29",
+      "employeeId": 30
+    },
+    {
+      "amount": 52217,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2021-11-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 40854,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-01-15",
+      "employeeId": 33
+    },
+    {
+      "amount": 57325,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2021-10-15",
+      "employeeId": 33
+    },
+    {
+      "amount": 41196,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2022-05-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 80156,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2021-10-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 66135,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-05-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 4436,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2022-03-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 42367,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2022-08-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 27500,
+      "expenseTypeId": 3,
+      "name": "Electronics",
+      "date": "2022-04-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 88710,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2021-12-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 54551,
+      "expenseTypeId": 4,
+      "name": "Beauty",
+      "date": "2022-08-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 8707,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-01-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 32668,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-04-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 48619,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-01-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 46307,
+      "expenseTypeId": 4,
+      "name": "Home",
+      "date": "2022-01-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 99147,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2021-08-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 76999,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-12-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 37136,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2022-07-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 70114,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2022-01-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 39401,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2022-01-07",
+      "employeeId": 33
+    },
+    {
+      "amount": 82497,
+      "expenseTypeId": 4,
+      "name": "Grocery",
+      "date": "2022-02-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 73817,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-04-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 53827,
+      "expenseTypeId": 4,
+      "name": "Tools",
+      "date": "2022-04-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 96203,
+      "expenseTypeId": 3,
+      "name": "Beauty",
+      "date": "2022-07-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 31265,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-08-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 29142,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2021-09-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 72209,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-07-23",
+      "employeeId": 31
+    },
+    {
+      "amount": 38756,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2021-09-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 65479,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-05-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 96240,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2021-12-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 43137,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-04-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 9019,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-03-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 77776,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2021-08-28",
+      "employeeId": 33
+    },
+    {
+      "amount": 24259,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2021-11-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 90263,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2021-12-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 87948,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-08-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 38531,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2022-03-29",
+      "employeeId": 30
+    },
+    {
+      "amount": 71944,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-06-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 9078,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-08-07",
+      "employeeId": 33
+    },
+    {
+      "amount": 68502,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-07-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 30997,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-04-15",
+      "employeeId": 33
+    },
+    {
+      "amount": 91910,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2021-09-14",
+      "employeeId": 30
+    },
+    {
+      "amount": 64383,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-01-04",
+      "employeeId": 30
+    },
+    {
+      "amount": 72399,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-05-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 51319,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-06-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 82450,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2022-06-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 58124,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2021-09-19",
+      "employeeId": 30
+    },
+    {
+      "amount": 86557,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-04-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 25052,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2022-08-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 55766,
+      "expenseTypeId": 2,
+      "name": "Outdoors",
+      "date": "2022-08-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 75093,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2021-09-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 55065,
+      "expenseTypeId": 2,
+      "name": "Home",
+      "date": "2022-05-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 35283,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2022-07-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 90734,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2021-11-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 23157,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2022-07-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 37939,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2022-08-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 23732,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2022-04-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 89769,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2021-11-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 77657,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-11-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 93721,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2021-08-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 27651,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2022-01-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 65025,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-03-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 77803,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2022-04-25",
+      "employeeId": 31
+    },
+    {
+      "amount": 8634,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-11-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 62847,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2022-03-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 97907,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2022-05-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 30083,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-06-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 97332,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2022-04-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 94488,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2022-07-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 16125,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2021-09-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 16357,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-06-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 10493,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2021-11-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 29048,
+      "expenseTypeId": 1,
+      "name": "Electronics",
+      "date": "2022-05-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 70286,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-08-03",
+      "employeeId": 30
+    },
+    {
+      "amount": 10343,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-12-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 50942,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2022-07-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 29576,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2021-09-21",
+      "employeeId": 30
+    },
+    {
+      "amount": 67995,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2021-12-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 53607,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-06-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 53363,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2022-04-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 84835,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2021-09-15",
+      "employeeId": 31
+    },
+    {
+      "amount": 76423,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2021-12-25",
+      "employeeId": 31
+    },
+    {
+      "amount": 27587,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-04-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 94373,
+      "expenseTypeId": 3,
+      "name": "Sports",
+      "date": "2021-12-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 46230,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2022-03-19",
+      "employeeId": 30
+    },
+    {
+      "amount": 77633,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2021-09-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 21786,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-03-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 44616,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-05-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 75430,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-08-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 69113,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-05-25",
+      "employeeId": 32
+    },
+    {
+      "amount": 45350,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2022-04-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 46099,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-03-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 83272,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2022-05-20",
+      "employeeId": 31
+    },
+    {
+      "amount": 58184,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-08-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 8088,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2022-06-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 49609,
+      "expenseTypeId": 4,
+      "name": "Home",
+      "date": "2022-07-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 5046,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-01-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 51536,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-04-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 2613,
+      "expenseTypeId": 1,
+      "name": "Garden",
+      "date": "2022-03-12",
+      "employeeId": 31
+    },
+    {
+      "amount": 19972,
+      "expenseTypeId": 1,
+      "name": "Outdoors",
+      "date": "2022-06-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 74244,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2022-01-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 75047,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2021-11-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 92661,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2022-01-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 83841,
+      "expenseTypeId": 3,
+      "name": "Kids",
+      "date": "2022-07-12",
+      "employeeId": 32
+    },
+    {
+      "amount": 39817,
+      "expenseTypeId": 5,
+      "name": "Kids",
+      "date": "2021-10-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 94010,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2022-07-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 34283,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2021-11-09",
+      "employeeId": 30
+    },
+    {
+      "amount": 7275,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-04-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 9253,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2022-08-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 10402,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-02-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 11746,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-05-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 92980,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2021-11-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 31107,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-07-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 29986,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2022-05-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 1235,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2022-04-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 13201,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2022-01-11",
+      "employeeId": 31
+    },
+    {
+      "amount": 89643,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-05-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 16563,
+      "expenseTypeId": 5,
+      "name": "Movies",
+      "date": "2022-05-21",
+      "employeeId": 30
+    },
+    {
+      "amount": 41202,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-12-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 34367,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2022-02-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 53816,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2021-11-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 14467,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2022-08-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 93173,
+      "expenseTypeId": 2,
+      "name": "Electronics",
+      "date": "2021-11-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 99653,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2022-03-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 6661,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2021-11-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 24981,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2022-01-04",
+      "employeeId": 33
+    },
+    {
+      "amount": 61382,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2022-07-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 92138,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2021-08-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 40856,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-07-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 86647,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-03-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 79907,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2021-11-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 92420,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-06-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 15340,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2022-07-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 15246,
+      "expenseTypeId": 4,
+      "name": "Grocery",
+      "date": "2021-11-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 56973,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2022-03-10",
+      "employeeId": 31
+    },
+    {
+      "amount": 2221,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-04-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 36241,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2021-09-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 29198,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2022-07-16",
+      "employeeId": 30
+    },
+    {
+      "amount": 27103,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2022-07-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 54929,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-06-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 80870,
+      "expenseTypeId": 4,
+      "name": "Baby",
+      "date": "2022-07-13",
+      "employeeId": 33
+    },
+    {
+      "amount": 99406,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2022-04-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 86793,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2021-10-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 72866,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2021-09-12",
+      "employeeId": 30
+    },
+    {
+      "amount": 62764,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2021-11-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 32441,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2022-01-31",
+      "employeeId": 32
+    },
+    {
+      "amount": 20031,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-09-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 99335,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2022-06-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 91157,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2021-08-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 3746,
+      "expenseTypeId": 2,
+      "name": "Beauty",
+      "date": "2022-01-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 4579,
+      "expenseTypeId": 3,
+      "name": "Music",
+      "date": "2021-08-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 63033,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-03-30",
+      "employeeId": 33
+    },
+    {
+      "amount": 87591,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-04-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 90398,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2022-04-28",
+      "employeeId": 31
+    },
+    {
+      "amount": 47995,
+      "expenseTypeId": 5,
+      "name": "Baby",
+      "date": "2022-02-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 81877,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2021-10-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 65389,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-01-03",
+      "employeeId": 32
+    },
+    {
+      "amount": 20794,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2021-08-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 40565,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2021-10-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 61604,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2022-07-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 34067,
+      "expenseTypeId": 4,
+      "name": "Shoes",
+      "date": "2022-03-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 94701,
+      "expenseTypeId": 2,
+      "name": "Outdoors",
+      "date": "2022-01-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 67505,
+      "expenseTypeId": 5,
+      "name": "Automotive",
+      "date": "2022-05-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 70533,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-04-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 29448,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2022-01-15",
+      "employeeId": 30
+    },
+    {
+      "amount": 63046,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2021-12-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 30934,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2021-12-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 21473,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2021-09-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 45044,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2021-09-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 68970,
+      "expenseTypeId": 2,
+      "name": "Health",
+      "date": "2022-04-01",
+      "employeeId": 33
+    },
+    {
+      "amount": 61588,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2021-09-01",
+      "employeeId": 31
+    },
+    {
+      "amount": 18991,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2021-09-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 68852,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2021-10-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 83135,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2022-03-18",
+      "employeeId": 30
+    },
+    {
+      "amount": 98067,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2021-09-15",
+      "employeeId": 31
+    },
+    {
+      "amount": 48812,
+      "expenseTypeId": 1,
+      "name": "Outdoors",
+      "date": "2022-05-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 71414,
+      "expenseTypeId": 3,
+      "name": "Books",
+      "date": "2022-02-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 70048,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2022-02-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 85429,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-07-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 8184,
+      "expenseTypeId": 2,
+      "name": "Kids",
+      "date": "2022-04-23",
+      "employeeId": 30
+    },
+    {
+      "amount": 87396,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2022-08-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 71969,
+      "expenseTypeId": 2,
+      "name": "Toys",
+      "date": "2022-08-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 27054,
+      "expenseTypeId": 2,
+      "name": "Games",
+      "date": "2021-11-24",
+      "employeeId": 32
+    },
+    {
+      "amount": 75084,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2021-09-02",
+      "employeeId": 30
+    },
+    {
+      "amount": 85284,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2021-09-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 66117,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-02-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 79941,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-04-22",
+      "employeeId": 30
+    },
+    {
+      "amount": 92798,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2021-08-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 59992,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2022-06-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 23157,
+      "expenseTypeId": 1,
+      "name": "Clothing",
+      "date": "2021-10-21",
+      "employeeId": 33
+    },
+    {
+      "amount": 50123,
+      "expenseTypeId": 5,
+      "name": "Tools",
+      "date": "2021-09-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 67981,
+      "expenseTypeId": 2,
+      "name": "Shoes",
+      "date": "2022-03-18",
+      "employeeId": 31
+    },
+    {
+      "amount": 85373,
+      "expenseTypeId": 1,
+      "name": "Jewelry",
+      "date": "2022-05-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 68437,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2022-03-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 42336,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-03-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 36743,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2022-01-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 50130,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2022-04-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 80630,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2021-10-13",
+      "employeeId": 30
+    },
+    {
+      "amount": 34744,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2022-01-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 40586,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2022-01-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 35199,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-01-30",
+      "employeeId": 30
+    },
+    {
+      "amount": 32271,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2021-11-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 65257,
+      "expenseTypeId": 4,
+      "name": "Sports",
+      "date": "2022-04-15",
+      "employeeId": 31
+    },
+    {
+      "amount": 30159,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-05-31",
+      "employeeId": 31
+    },
+    {
+      "amount": 3365,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-10-24",
+      "employeeId": 31
+    },
+    {
+      "amount": 74781,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2022-01-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 66517,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-09-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 13278,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-04-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 60179,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2022-02-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 97921,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2021-10-28",
+      "employeeId": 32
+    },
+    {
+      "amount": 59874,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-09-18",
+      "employeeId": 33
+    },
+    {
+      "amount": 1839,
+      "expenseTypeId": 3,
+      "name": "Clothing",
+      "date": "2021-12-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 68841,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2022-03-10",
+      "employeeId": 32
+    },
+    {
+      "amount": 32812,
+      "expenseTypeId": 1,
+      "name": "Sports",
+      "date": "2022-06-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 2899,
+      "expenseTypeId": 1,
+      "name": "Outdoors",
+      "date": "2022-03-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 89726,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-12-30",
+      "employeeId": 31
+    },
+    {
+      "amount": 8505,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-01-17",
+      "employeeId": 31
+    },
+    {
+      "amount": 32830,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2021-12-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 53735,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2021-11-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 4735,
+      "expenseTypeId": 2,
+      "name": "Electronics",
+      "date": "2022-02-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 89390,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-05-19",
+      "employeeId": 33
+    },
+    {
+      "amount": 39561,
+      "expenseTypeId": 3,
+      "name": "Games",
+      "date": "2021-09-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 43590,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-07-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 58885,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-04-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 9722,
+      "expenseTypeId": 2,
+      "name": "Electronics",
+      "date": "2022-03-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 25081,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2021-10-17",
+      "employeeId": 33
+    },
+    {
+      "amount": 69480,
+      "expenseTypeId": 5,
+      "name": "Kids",
+      "date": "2021-10-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 40564,
+      "expenseTypeId": 2,
+      "name": "Sports",
+      "date": "2021-12-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 88461,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-07-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 86209,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2022-02-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 11114,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2021-10-21",
+      "employeeId": 32
+    },
+    {
+      "amount": 42022,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2021-10-16",
+      "employeeId": 31
+    },
+    {
+      "amount": 48534,
+      "expenseTypeId": 3,
+      "name": "Outdoors",
+      "date": "2021-08-22",
+      "employeeId": 33
+    },
+    {
+      "amount": 75460,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2022-01-19",
+      "employeeId": 31
+    },
+    {
+      "amount": 85005,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2022-06-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 89513,
+      "expenseTypeId": 5,
+      "name": "Sports",
+      "date": "2021-11-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 27225,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2021-10-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 23064,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-04-29",
+      "employeeId": 31
+    },
+    {
+      "amount": 48964,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2021-10-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 36444,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2022-01-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 82820,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2022-04-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 74181,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-06-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 85239,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2021-10-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 98236,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2021-12-12",
+      "employeeId": 33
+    },
+    {
+      "amount": 76604,
+      "expenseTypeId": 1,
+      "name": "Games",
+      "date": "2022-01-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 84105,
+      "expenseTypeId": 3,
+      "name": "Garden",
+      "date": "2021-10-25",
+      "employeeId": 30
+    },
+    {
+      "amount": 36811,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2022-01-01",
+      "employeeId": 32
+    },
+    {
+      "amount": 13085,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-06-23",
+      "employeeId": 30
+    },
+    {
+      "amount": 54297,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-03-25",
+      "employeeId": 32
+    },
+    {
+      "amount": 79876,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2021-10-07",
+      "employeeId": 32
+    },
+    {
+      "amount": 50465,
+      "expenseTypeId": 4,
+      "name": "Outdoors",
+      "date": "2022-01-28",
+      "employeeId": 33
+    },
+    {
+      "amount": 34436,
+      "expenseTypeId": 1,
+      "name": "Industrial",
+      "date": "2022-06-04",
+      "employeeId": 32
+    },
+    {
+      "amount": 53612,
+      "expenseTypeId": 2,
+      "name": "Books",
+      "date": "2022-06-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 22489,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2022-02-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 48723,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2022-02-13",
+      "employeeId": 32
+    },
+    {
+      "amount": 52495,
+      "expenseTypeId": 5,
+      "name": "Computers",
+      "date": "2021-11-20",
+      "employeeId": 32
+    },
+    {
+      "amount": 84143,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2021-09-08",
+      "employeeId": 32
+    },
+    {
+      "amount": 78138,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2021-10-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 74747,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2021-10-03",
+      "employeeId": 33
+    },
+    {
+      "amount": 32667,
+      "expenseTypeId": 5,
+      "name": "Home",
+      "date": "2022-03-09",
+      "employeeId": 31
+    },
+    {
+      "amount": 14425,
+      "expenseTypeId": 3,
+      "name": "Kids",
+      "date": "2022-03-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 82654,
+      "expenseTypeId": 3,
+      "name": "Computers",
+      "date": "2022-01-02",
+      "employeeId": 33
+    },
+    {
+      "amount": 11334,
+      "expenseTypeId": 1,
+      "name": "Movies",
+      "date": "2021-08-30",
+      "employeeId": 32
+    },
+    {
+      "amount": 58336,
+      "expenseTypeId": 3,
+      "name": "Movies",
+      "date": "2022-04-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 21749,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2021-10-21",
+      "employeeId": 30
+    },
+    {
+      "amount": 45414,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2022-07-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 64906,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2022-05-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 77027,
+      "expenseTypeId": 3,
+      "name": "Tools",
+      "date": "2022-08-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 16636,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-12-24",
+      "employeeId": 32
+    },
+    {
+      "amount": 49136,
+      "expenseTypeId": 3,
+      "name": "Beauty",
+      "date": "2022-05-07",
+      "employeeId": 33
+    },
+    {
+      "amount": 15072,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2022-04-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 91725,
+      "expenseTypeId": 2,
+      "name": "Clothing",
+      "date": "2022-02-13",
+      "employeeId": 33
+    },
+    {
+      "amount": 44689,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2021-12-02",
+      "employeeId": 31
+    },
+    {
+      "amount": 61103,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2022-03-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 55171,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2021-12-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 17359,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-03-05",
+      "employeeId": 30
+    },
+    {
+      "amount": 67561,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2021-12-19",
+      "employeeId": 32
+    },
+    {
+      "amount": 50915,
+      "expenseTypeId": 5,
+      "name": "Games",
+      "date": "2022-07-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 94586,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-06-27",
+      "employeeId": 32
+    },
+    {
+      "amount": 17714,
+      "expenseTypeId": 5,
+      "name": "Grocery",
+      "date": "2022-05-11",
+      "employeeId": 32
+    },
+    {
+      "amount": 75871,
+      "expenseTypeId": 1,
+      "name": "Tools",
+      "date": "2022-07-31",
+      "employeeId": 33
+    },
+    {
+      "amount": 2845,
+      "expenseTypeId": 2,
+      "name": "Grocery",
+      "date": "2021-09-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 9865,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2022-02-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 85767,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2022-07-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 46702,
+      "expenseTypeId": 1,
+      "name": "Music",
+      "date": "2021-12-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 96383,
+      "expenseTypeId": 1,
+      "name": "Baby",
+      "date": "2021-11-19",
+      "employeeId": 33
+    },
+    {
+      "amount": 53077,
+      "expenseTypeId": 2,
+      "name": "Music",
+      "date": "2022-07-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 12978,
+      "expenseTypeId": 1,
+      "name": "Computers",
+      "date": "2022-05-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 52573,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-06-22",
+      "employeeId": 32
+    },
+    {
+      "amount": 73301,
+      "expenseTypeId": 1,
+      "name": "Outdoors",
+      "date": "2022-07-31",
+      "employeeId": 30
+    },
+    {
+      "amount": 83205,
+      "expenseTypeId": 2,
+      "name": "Garden",
+      "date": "2022-01-31",
+      "employeeId": 30
+    },
+    {
+      "amount": 8660,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2021-09-23",
+      "employeeId": 32
+    },
+    {
+      "amount": 37780,
+      "expenseTypeId": 2,
+      "name": "Movies",
+      "date": "2021-09-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 45782,
+      "expenseTypeId": 3,
+      "name": "Health",
+      "date": "2021-08-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 11438,
+      "expenseTypeId": 3,
+      "name": "Baby",
+      "date": "2022-04-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 40846,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2022-03-26",
+      "employeeId": 31
+    },
+    {
+      "amount": 9107,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-04-06",
+      "employeeId": 33
+    },
+    {
+      "amount": 10897,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2022-06-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 10450,
+      "expenseTypeId": 4,
+      "name": "Jewelry",
+      "date": "2022-05-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 5131,
+      "expenseTypeId": 5,
+      "name": "Outdoors",
+      "date": "2022-02-10",
+      "employeeId": 33
+    },
+    {
+      "amount": 34512,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2021-09-30",
+      "employeeId": 30
+    },
+    {
+      "amount": 26113,
+      "expenseTypeId": 4,
+      "name": "Home",
+      "date": "2021-11-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 54710,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-07-02",
+      "employeeId": 32
+    },
+    {
+      "amount": 34679,
+      "expenseTypeId": 1,
+      "name": "Kids",
+      "date": "2022-03-28",
+      "employeeId": 30
+    },
+    {
+      "amount": 97403,
+      "expenseTypeId": 4,
+      "name": "Grocery",
+      "date": "2022-06-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 82647,
+      "expenseTypeId": 1,
+      "name": "Beauty",
+      "date": "2021-09-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 5746,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-06-14",
+      "employeeId": 31
+    },
+    {
+      "amount": 75167,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-04-24",
+      "employeeId": 30
+    },
+    {
+      "amount": 75230,
+      "expenseTypeId": 2,
+      "name": "Jewelry",
+      "date": "2022-01-24",
+      "employeeId": 33
+    },
+    {
+      "amount": 71703,
+      "expenseTypeId": 5,
+      "name": "Beauty",
+      "date": "2022-01-17",
+      "employeeId": 30
+    },
+    {
+      "amount": 1171,
+      "expenseTypeId": 1,
+      "name": "Grocery",
+      "date": "2021-09-23",
+      "employeeId": 33
+    },
+    {
+      "amount": 4787,
+      "expenseTypeId": 1,
+      "name": "Books",
+      "date": "2022-02-01",
+      "employeeId": 30
+    },
+    {
+      "amount": 82731,
+      "expenseTypeId": 4,
+      "name": "Electronics",
+      "date": "2021-11-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 26087,
+      "expenseTypeId": 2,
+      "name": "Computers",
+      "date": "2022-02-17",
+      "employeeId": 32
+    },
+    {
+      "amount": 2810,
+      "expenseTypeId": 5,
+      "name": "Garden",
+      "date": "2022-01-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 28723,
+      "expenseTypeId": 3,
+      "name": "Industrial",
+      "date": "2022-03-27",
+      "employeeId": 30
+    },
+    {
+      "amount": 68903,
+      "expenseTypeId": 3,
+      "name": "Home",
+      "date": "2021-12-07",
+      "employeeId": 30
+    },
+    {
+      "amount": 12032,
+      "expenseTypeId": 5,
+      "name": "Kids",
+      "date": "2022-01-31",
+      "employeeId": 30
+    },
+    {
+      "amount": 44713,
+      "expenseTypeId": 5,
+      "name": "Clothing",
+      "date": "2021-12-26",
+      "employeeId": 33
+    },
+    {
+      "amount": 55293,
+      "expenseTypeId": 4,
+      "name": "Movies",
+      "date": "2021-09-29",
+      "employeeId": 32
+    },
+    {
+      "amount": 45249,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-07-22",
+      "employeeId": 31
+    },
+    {
+      "amount": 33505,
+      "expenseTypeId": 3,
+      "name": "Shoes",
+      "date": "2022-04-06",
+      "employeeId": 32
+    },
+    {
+      "amount": 71818,
+      "expenseTypeId": 5,
+      "name": "Music",
+      "date": "2022-02-07",
+      "employeeId": 31
+    },
+    {
+      "amount": 70634,
+      "expenseTypeId": 1,
+      "name": "Toys",
+      "date": "2022-06-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 46621,
+      "expenseTypeId": 1,
+      "name": "Health",
+      "date": "2022-01-03",
+      "employeeId": 31
+    },
+    {
+      "amount": 1840,
+      "expenseTypeId": 3,
+      "name": "Automotive",
+      "date": "2021-10-27",
+      "employeeId": 31
+    },
+    {
+      "amount": 21051,
+      "expenseTypeId": 2,
+      "name": "Tools",
+      "date": "2021-11-26",
+      "employeeId": 30
+    },
+    {
+      "amount": 76534,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2022-01-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 70569,
+      "expenseTypeId": 2,
+      "name": "Electronics",
+      "date": "2022-01-10",
+      "employeeId": 30
+    },
+    {
+      "amount": 34559,
+      "expenseTypeId": 2,
+      "name": "Automotive",
+      "date": "2022-01-09",
+      "employeeId": 33
+    },
+    {
+      "amount": 33524,
+      "expenseTypeId": 4,
+      "name": "Automotive",
+      "date": "2022-03-14",
+      "employeeId": 32
+    },
+    {
+      "amount": 7845,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2022-01-08",
+      "employeeId": 31
+    },
+    {
+      "amount": 32757,
+      "expenseTypeId": 5,
+      "name": "Toys",
+      "date": "2021-10-05",
+      "employeeId": 32
+    },
+    {
+      "amount": 70203,
+      "expenseTypeId": 2,
+      "name": "Baby",
+      "date": "2021-08-21",
+      "employeeId": 31
+    },
+    {
+      "amount": 77626,
+      "expenseTypeId": 4,
+      "name": "Books",
+      "date": "2022-07-10",
+      "employeeId": 30
+    },
+    {
+      "amount": 79163,
+      "expenseTypeId": 4,
+      "name": "Clothing",
+      "date": "2021-08-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 36663,
+      "expenseTypeId": 4,
+      "name": "Industrial",
+      "date": "2022-02-15",
+      "employeeId": 32
+    },
+    {
+      "amount": 38363,
+      "expenseTypeId": 1,
+      "name": "Home",
+      "date": "2022-01-27",
+      "employeeId": 33
+    },
+    {
+      "amount": 58082,
+      "expenseTypeId": 4,
+      "name": "Computers",
+      "date": "2022-01-06",
+      "employeeId": 30
+    },
+    {
+      "amount": 91350,
+      "expenseTypeId": 5,
+      "name": "Jewelry",
+      "date": "2021-10-14",
+      "employeeId": 30
+    },
+    {
+      "amount": 33884,
+      "expenseTypeId": 5,
+      "name": "Shoes",
+      "date": "2022-06-11",
+      "employeeId": 33
+    },
+    {
+      "amount": 68414,
+      "expenseTypeId": 4,
+      "name": "Music",
+      "date": "2022-05-13",
+      "employeeId": 33
+    },
+    {
+      "amount": 13364,
+      "expenseTypeId": 4,
+      "name": "Health",
+      "date": "2022-04-29",
+      "employeeId": 33
+    },
+    {
+      "amount": 8331,
+      "expenseTypeId": 4,
+      "name": "Toys",
+      "date": "2022-05-05",
+      "employeeId": 31
+    },
+    {
+      "amount": 42269,
+      "expenseTypeId": 3,
+      "name": "Toys",
+      "date": "2022-07-06",
+      "employeeId": 31
+    },
+    {
+      "amount": 91654,
+      "expenseTypeId": 1,
+      "name": "Automotive",
+      "date": "2022-07-08",
+      "employeeId": 30
+    },
+    {
+      "amount": 97039,
+      "expenseTypeId": 5,
+      "name": "Health",
+      "date": "2021-09-16",
+      "employeeId": 33
+    },
+    {
+      "amount": 63373,
+      "expenseTypeId": 4,
+      "name": "Garden",
+      "date": "2021-10-18",
+      "employeeId": 32
+    },
+    {
+      "amount": 73141,
+      "expenseTypeId": 2,
+      "name": "Industrial",
+      "date": "2022-06-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 85419,
+      "expenseTypeId": 5,
+      "name": "Books",
+      "date": "2022-01-20",
+      "employeeId": 33
+    },
+    {
+      "amount": 93455,
+      "expenseTypeId": 3,
+      "name": "Jewelry",
+      "date": "2021-09-08",
+      "employeeId": 33
+    },
+    {
+      "amount": 22412,
+      "expenseTypeId": 3,
+      "name": "Grocery",
+      "date": "2022-06-16",
+      "employeeId": 32
+    },
+    {
+      "amount": 45514,
+      "expenseTypeId": 5,
+      "name": "Electronics",
+      "date": "2021-11-09",
+      "employeeId": 32
+    },
+    {
+      "amount": 24574,
+      "expenseTypeId": 5,
+      "name": "Home",
+      "date": "2022-02-09",
+      "employeeId": 31
+    }
+  ]
+}

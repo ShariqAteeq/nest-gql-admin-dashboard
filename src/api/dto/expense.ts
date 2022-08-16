@@ -19,3 +19,13 @@ export class ExpenseInput {
   @Field()
   amount: number;
 }
+
+@InputType()
+export class ListExpenseInput {
+  @Field({ nullable: true })
+  companyId: number;
+  @Field({ nullable: true })
+  projectId: number;
+  @Field({ nullable: true })
+  employeeId: number;
+}
