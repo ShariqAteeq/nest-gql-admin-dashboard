@@ -24,4 +24,8 @@ export class CompanyService {
     company['establishedAt'] = payload['establishedAt'];
     return await this.companyRepo.save(company);
   }
+
+  async getCompanyById(id: number): Promise<Company> {
+    return await this.companyRepo.findOne({ where: { id } });
+  }
 }
