@@ -1,4 +1,5 @@
 import { Field, ObjectType } from '@nestjs/graphql';
+import { ExpenseStatus } from 'src/helpers/constant';
 import {
   Column,
   CreateDateColumn,
@@ -30,6 +31,10 @@ export class Expense {
   @Column({ nullable: true })
   @Field({ nullable: true })
   employeeId: number;
+
+  @Column({ nullable: true })
+  @Field({ nullable: true })
+  status: ExpenseStatus;
 
   @Column({ nullable: true })
   @Field({ nullable: true })

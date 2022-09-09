@@ -26,6 +26,11 @@ export enum EmployeeType {
   CLEANER = 'CLEANER',
 }
 
+export enum ExpenseStatus {
+  PENDING = 'PENDING',
+  APPROVED = 'APPROVED',
+}
+
 export interface Mail {
   to: string;
   subject?: string;

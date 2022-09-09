@@ -36,6 +36,7 @@ export class ExpenseService {
     expense['name'] = input['name'];
     expense['amount'] = input['amount'];
     expense['date'] = input['date'];
+    expense['status'] = input['status'];
     expense['expenseTypeId'] = input['expenseTypeId'];
     expense['company'] = user['company'];
     expense['companyId'] = user['company']['id'];
@@ -65,6 +66,7 @@ export class ExpenseService {
     expense['name'] = input['name'];
     expense['amount'] = input['amount'];
     expense['date'] = input['date'];
+    expense['status'] = input['status'];
     expense['expenseTypeId'] = input['expenseTypeId'];
     expense['logUpdatedBy'] = user;
     return await this.expenseRepo.save(expense);

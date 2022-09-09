@@ -1,4 +1,5 @@
 import { Field, InputType } from '@nestjs/graphql';
+import { ExpenseStatus } from 'src/helpers/constant';
 
 @InputType()
 export class ExpenseInput {
@@ -14,6 +15,8 @@ export class ExpenseInput {
   employeeId: number;
   @Field()
   date: Date;
+  @Field()
+  status: ExpenseStatus;
   @Field()
   expenseTypeId: number;
   @Field()
