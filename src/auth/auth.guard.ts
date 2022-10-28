@@ -21,7 +21,21 @@ export class GqlAuthGuard implements CanActivate {
       context.getHandler(),
       context.getClass(),
     ]);
+
+    const isPublic = this.reflector.getAllAndOverride<boolean>("isPublic", [
+      context.getHandler(),
+      context.getClass(),
+    ]);
+    if (isPublic) {
+      return true;
+    }
+
     const authHeader = context.getArgs()[2].req.headers.authorization as string;
+
+    if(!authHeader) {
+      throw new HttpException("Token not Found", HttpStatus.NOT_FOUND)
+    }
+
     if (!requiredRoles) {
       return true;
     }

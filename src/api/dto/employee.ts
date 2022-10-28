@@ -9,7 +9,7 @@ export class AddEmployeeInput {
   email: string;
   @Field()
   salary: number;
-  @Field()
+  @Field(() => Role)
   role: Role;
   @Field(() => [String])
   skills: string[];
@@ -17,6 +17,6 @@ export class AddEmployeeInput {
   designation: string;
   @Field()
   joiningDate: Date;
-  @Field()
+  @Field(() => EmployeeType)
   employeeType: EmployeeType;
 }

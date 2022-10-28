@@ -47,3 +47,7 @@ registerEnumType(Role, {
 registerEnumType(UserStatus, {
   name: 'UserStatus',
 });
+
+registerEnumType(EmployeeType, {
+  name: 'EmployeeType',
+});
