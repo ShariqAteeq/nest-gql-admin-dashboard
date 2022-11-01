@@ -7,7 +7,7 @@ export class AddProjectInput {
   name: string;
   @Field()
   desc: string;
-  @Field()
+  @Field(() => ProjectStatus)
   status: ProjectStatus;
   @Field()
   startDate: Date;
@@ -45,7 +45,7 @@ export class AssignEmployeeToProjectInput {
   startDate: Date;
   @Field({ nullable: true })
   endDate: Date;
-  @Field()
+  @Field(() => UserStatus)
   status: UserStatus;
 }
 
