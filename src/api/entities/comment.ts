@@ -11,4 +11,8 @@ export class Comment {
   @Column()
   @Field()
   name: string;
+
+  @Column({ nullable: true })
+  @Field({ nullable: true })
+  postId: number;
 }

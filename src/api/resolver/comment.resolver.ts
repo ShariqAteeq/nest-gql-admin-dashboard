@@ -13,19 +13,26 @@ export class CommentResolver {
   ) {}
 
   @Mutation(() => Comment)
-  async addComment(@Args('name') name: string): Promise<Comment> {
+  async addComment(
+    @Args('name') name: string,
+    @Args('postId') postId: number,
+  ): Promise<Comment> {
     const comment = new Comment();
     comment['name'] = name;
+    comment['postId'] = postId;
     const res = await this.commentRepo.save(comment);
-    pubSub.publish('commentAdded', { commentAdded: res });
+    pubSub.publish('commentAdded', { my: res });
     return res;
   }
 
   @Public()
-  @Subscription((returns) => Comment, {
-    name: 'commentAdded',
+  @Subscription(() => Comment, {
+    name: 'my',
+    filter(payload, variables) {
+      return payload['my']['postId'] === variables['postId'];
+    },
   })
-  commentAdded() {
+  commentAdded(@Args('postId') postId: number) {
     return pubSub.asyncIterator('commentAdded');
   }
 }
