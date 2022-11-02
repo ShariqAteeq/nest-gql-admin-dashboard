@@ -17,6 +17,10 @@ import { DatabaseOrmModule } from './database.orm.module';
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
       autoSchemaFile: true,
+      subscriptions: {
+        'graphql-ws': true,
+        'subscriptions-transport-ws': true,
+      },
       context: ({ req }) => ({ req }),
     }),
   ],

@@ -1,6 +1,7 @@
 import { forwardRef, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from 'src/auth/auth.module';
+import { Comment } from './entities/comment';
 import { Company } from './entities/company';
 import { Employee } from './entities/employee';
 import { Expense } from './entities/expense';
@@ -8,6 +9,7 @@ import { Project } from './entities/project';
 import { ProjectEmpHistory } from './entities/ProjectEmpHistory';
 import { SMSToken } from './entities/token';
 import { User } from './entities/user';
+import { CommentResolver } from './resolver/comment.resolver';
 import { CompanyResolver } from './resolver/company.resolver';
 import { EmployeeResolver } from './resolver/employee.resolver';
 import { ExpenseResolver } from './resolver/expense.resolver';
@@ -31,6 +33,7 @@ import { UserService } from './service/user.service';
     TypeOrmModule.forFeature([SMSToken]),
     TypeOrmModule.forFeature([ProjectEmpHistory]),
     TypeOrmModule.forFeature([Expense]),
+    TypeOrmModule.forFeature([Comment]),
   ],
   providers: [
     UserResolver,
@@ -45,6 +48,7 @@ import { UserService } from './service/user.service';
     CompanyResolver,
     ExpenseResolver,
     ProjectResolver,
+    CommentResolver,
   ],
   exports: [],
 })
