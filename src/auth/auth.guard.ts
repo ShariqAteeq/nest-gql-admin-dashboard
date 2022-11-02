@@ -22,7 +22,7 @@ export class GqlAuthGuard implements CanActivate {
       context.getClass(),
     ]);
 
-    const isPublic = this.reflector.getAllAndOverride<boolean>("isPublic", [
+    const isPublic = this.reflector.getAllAndOverride<boolean>('isPublic', [
       context.getHandler(),
       context.getClass(),
     ]);
@@ -30,10 +30,12 @@ export class GqlAuthGuard implements CanActivate {
       return true;
     }
 
-    const authHeader = context.getArgs()[2].req.headers.authorization as string;
+    const authHeader = context.getArgs()[2].req?.headers
+      .authorization as string;
+    console.log('auth', authHeader);
 
-    if(!authHeader) {
-      throw new HttpException("Token not Found", HttpStatus.NOT_FOUND)
+    if (!authHeader) {
+      throw new HttpException('Token not Found', HttpStatus.NOT_FOUND);
     }
 
     if (!requiredRoles) {
