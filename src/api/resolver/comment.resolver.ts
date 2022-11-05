@@ -4,6 +4,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Comment } from '../entities/comment';
 import { PubSub } from 'graphql-subscriptions';
 import { Public } from 'src/decorators/public.decorator';
+import { Roles } from 'src/decorators/roles.decorator';
 
 const pubSub = new PubSub();
 @Resolver(() => Comment)
@@ -25,7 +26,8 @@ export class CommentResolver {
     return res;
   }
 
-  @Public()
+  // @Public()
+  // @Roles()
   @Subscription(() => Comment, {
     name: 'my',
     filter(payload, variables) {

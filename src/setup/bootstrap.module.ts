@@ -16,57 +16,59 @@ import { DatabaseOrmModule } from './database.orm.module';
     ApiModule,
     AuthModule,
     DatabaseOrmModule,
-    GraphQLModule.forRootAsync<ApolloDriverConfig>({
-      imports: [AuthModule],
-      driver: ApolloDriver,
-      useFactory: async (authService: AuthService) => ({
-        autoSchemaFile: true,
-        context: ({ req }) => ({ req }),
-        subscriptions: {
-          'graphql-ws': true,
-          'subscriptions-transport-ws': {
-            onConnect: async (connectionParams: ConnectionParams) => {
-              console.log(
-                'connectionParams',
-                connectionParams['authorization'],
-              );
-              const authHeader = connectionParams['authorization'];
-              const token = authHeader.split(' ')[1];
-              const isTokenValid = authService.validateToken(token);
-              console.log('isTokenValid', isTokenValid);
-              if (isTokenValid === 'TokenExpiredError') {
-                throw new HttpException(
-                  'Token is Expired',
-                  HttpStatus.BAD_REQUEST,
-                );
-              }
-              const user = authService.getUserFromAccessToken(token);
-              console.log('user', user);
-              return { user };
-            },
-          },
-        },
-      }),
-      inject: [AuthService],
-    }),
-    // GraphQLModule.forRoot<ApolloDriverConfig>({
+    // GraphQLModule.forRootAsync<ApolloDriverConfig>({
+    //   imports: [AuthModule],
     //   driver: ApolloDriver,
-    //   autoSchemaFile: true,
-    //   subscriptions: {
-    //     'graphql-ws': true,
-    //     'subscriptions-transport-ws': {
-    //       onConnect: async (connectionParams) => {
-    //         // const authToken = connectionParams.authToken;
-    //         console.log('connectionParams', connectionParams['authorization']);
-    //         // extract user information from token
-    //         const user = { id: 1 };
-    //         // return user info to add them to the context later
-    //         return { user };
+    //   useFactory: async (authService: AuthService) => ({
+    //     autoSchemaFile: true,
+    //     context: ({ req }) => ({ req }),
+    //     subscriptions: {
+    //       'graphql-ws': true,
+    //       'subscriptions-transport-ws': {
+    //         onConnect: async (connectionParams: ConnectionParams) => {
+    //           console.log(
+    //             'connectionParams',
+    //             connectionParams['authorization'],
+    //           );
+    //           const authHeader = connectionParams['authorization'];
+    //           const token = authHeader.split(' ')[1];
+    //           const isTokenValid = authService.validateToken(token);
+    //           console.log('isTokenValid', isTokenValid);
+    //           if (isTokenValid === 'TokenExpiredError') {
+    //             throw new HttpException(
+    //               'Token is Expired',
+    //               HttpStatus.BAD_REQUEST,
+    //             );
+    //           }
+    //           const user = authService.getUserFromAccessToken(token);
+    //           console.log('user', user);
+    //           return {
+    //             currentUser: user,
+    //           };
+    //         },
     //       },
     //     },
-    //   },
-    //   context: ({ req }) => ({ req }),
+    //   }),
+    //   inject: [AuthService],
     // }),
+    GraphQLModule.forRoot<ApolloDriverConfig>({
+      driver: ApolloDriver,
+      autoSchemaFile: true,
+      subscriptions: {
+        'graphql-ws': true,
+        'subscriptions-transport-ws': {
+          onConnect: async (connectionParams) => {
+            console.log('connectionParams', connectionParams['authorization']);
+            return {
+              req: {
+                headers: { ...connectionParams },
+              },
+            };
+          },
+        },
+      },
+      context: ({ req }) => ({ req }),
+    }),
   ],
   exports: [],
   providers: [],
